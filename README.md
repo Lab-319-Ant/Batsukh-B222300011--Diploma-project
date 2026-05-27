@@ -173,53 +173,15 @@ Synthetic simulation нь simulator-ийн behavior-ийг харуулна. Rea
 
 ---
 
-## Анхаарах зүйл
-
-Энэ project-ийг дараах байдлаар тайлбарлах нь зөв.
-
-```text
-MATLAB-based AI/ML-assisted LTE SON-inspired simulation and offline KPI advisory framework
-```
-
-Дараах байдлаар тайлбарлаж болохгүй.
-
-```text
-Full real AI-RAN deployment
-Live closed-loop SON system
-Real network healing баталсан систем
-```
-
----
-
-## Private GitHub ба QR code
-
-QR code нь зөвхөн GitHub link рүү оруулна. Repository private бол зөвхөн invite авсан GitHub account-аар орж чадна.
-
-Зөв дараалал:
-
-```text
-QR уншуулна
-↓
-GitHub repository нээгдэнэ
-↓
-GitHub login хийнэ
-↓
-Invite авсан багш project-ийг үзнэ
-```
-
-Invite аваагүй хүн QR уншуулбал 404 гарч болно. Энэ нь private repository дээр хэвийн.
-
----
-
 ## Гол folder-ууд
 
 ```text
-KPI/                                      real KPI Excel files
-ai_lte_son_single_site/main.m             synthetic simulation
-ai_lte_son_single_site/run_vendor_kpi_recommendation.m   real KPI replay
-ai_lte_son_single_site/results/figures/   synthetic figures
-ai_lte_son_single_site/results/tables/    synthetic tables
-ai_lte_son_single_site/results/vendor/    real KPI replay results
+KPI/                                                    real KPI Excel files
+ai_lte_son_single_site/main.m                           synthetic simulation
+ai_lte_son_single_site/run_vendor_kpi_recommendation.m  real KPI replay
+ai_lte_son_single_site/results/figures/                 synthetic figures
+ai_lte_son_single_site/results/tables/                  synthetic tables
+ai_lte_son_single_site/results/vendor/                  real KPI replay results
 ```
 
 ---
