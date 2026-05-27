@@ -1,0 +1,8 @@
+﻿"check_name","actual_behavior","pass_flag","severity","notes"
+"safety_flags_exist","phase8b_safety_check.csv exists and Phase9A carries safety_valid/evaluation metadata","1","INFO",""
+"raw_unsafe_ml_filtered","raw unsafe=188; residual fallback=45","1","INFO","Residual unsafe rows are explicitly marked as fallbacks."
+"phase11b_fallback_not_executable","fallback executable rows=0","1","INFO",""
+"final_executable_actions_safety_valid","unsafe executable rows=0","1","INFO",""
+"no_rejected_noop_fallback_applied_12d","applied=60, skipped=0","1","INFO","Join against final decisions found no rejected/no-op/fallback applied rows."
+"no_duplicate_executable_action_for_same_actual_sector_parameter","duplicate groups=0; rows in duplicate groups=0","1","MAJOR","Checks coordinator_group_id + application_affected_sector_id + application_state_variable."
+"reward_tie_audit","nonzero_regret_mismatch_count=2; max_abs_reward_difference=0.004250941932975","1","INFO","Two small nonzero-regret mismatches are documented as near-zero regret, not treated as a code bug."

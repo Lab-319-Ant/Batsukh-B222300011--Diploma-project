@@ -1,0 +1,5 @@
+module_name,total_candidates,safety_valid_candidates,safety_invalid_candidates,safety_valid_ratio,oracle_selected_unsafe_count
+COC/OH,8946,6372,2574,0.712273641851107,5
+ES,2664,2115,549,0.793918918918919,0
+HO/MRO,108936,91362,17574,0.838675919806125,29
+LB/MLB,10348,3019,7329,0.291747197526092,235

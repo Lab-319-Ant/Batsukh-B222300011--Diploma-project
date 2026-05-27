@@ -1,0 +1,23 @@
+check_name,module,value,notes
+mismatch_count,ALL,111,Rows where selected_action_id_safe ~= oracle_action_id.
+reward_tie_count,ALL,109,Mismatches where |oracle_reward - safe_true_reward| <= 1e-9.
+nonzero_regret_mismatch_count,ALL,2,Mismatches with strictly nonzero |reward difference|.
+max_abs_reward_difference,ALL,0.004250941932975,Max |oracle_reward - safe_true_reward| across mismatches.
+mean_abs_reward_difference,ALL,5.46852038036488e-05,Mean |oracle_reward - safe_true_reward| across mismatches.
+safe_true_reward_matches_phase8b,ALL,1,safe_true_reward equals Phase 8B reward at selected_action_id_safe.
+safe_true_reward_matches_phase9b_actual,ALL,1,safe_true_reward equals Phase 9B actual_reward at selected_action_id_safe.
+oracle_reward_matches_phase8b,ALL,1,oracle_reward equals Phase 8B reward at oracle_action_id.
+safe_action_id_neq_oracle_action_id_in_subset,ALL,1,Action ids really differ in mismatch subset (no false positives).
+all_mismatches_are_reward_ties,ALL,0,Equivalent to: zero regret on mismatches is fully explained by reward ties.
+mismatch_count,COC/OH,3,Module-wise mismatch count.
+reward_tie_count,COC/OH,3,Module-wise reward ties within mismatches.
+max_abs_reward_difference,COC/OH,0,Module-wise max |reward difference|.
+mismatch_count,LB/MLB,7,Module-wise mismatch count.
+reward_tie_count,LB/MLB,5,Module-wise reward ties within mismatches.
+max_abs_reward_difference,LB/MLB,0.004250941932975,Module-wise max |reward difference|.
+mismatch_count,ES,0,Module-wise mismatch count.
+reward_tie_count,ES,0,Module-wise reward ties within mismatches.
+max_abs_reward_difference,ES,,Module-wise max |reward difference|.
+mismatch_count,HO/MRO,101,Module-wise mismatch count.
+reward_tie_count,HO/MRO,101,Module-wise reward ties within mismatches.
+max_abs_reward_difference,HO/MRO,0,Module-wise max |reward difference|.

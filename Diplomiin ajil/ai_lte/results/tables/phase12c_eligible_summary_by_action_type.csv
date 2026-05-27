@@ -1,0 +1,5 @@
+action_type,eligible_count,excluded_count,eligible_rate
+compensate_neighbor,9,0,1
+cio_bias_to_neighbor,55,0,1
+sleep,0,66,0
+handover_parameter_adjustment,0,108,0

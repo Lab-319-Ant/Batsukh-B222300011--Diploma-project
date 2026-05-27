@@ -1,0 +1,7 @@
+"check_name","pass_flag","severity","evidence","notes"
+"stale_phase8c_removed","1","MAJOR","No current-active-Phase-8C wording remains.",""
+"limited_kpi_t_plus_1_documented","1","MAJOR","README documents limited one-step KPI evaluation.","Only COC/OH and LB/MLB are physically applied."
+"es_homro_excluded","1","MAJOR","README states ES and HO/MRO are not physically applied.",""
+"phase13_disabled_default","1","BLOCKER","README states Phase 13 is disabled by default.",""
+"no_full_closed_loop_claim","1","BLOCKER","No forbidden achieved-result claim found.",""
+"overall_readme_fixed","1","INFO","readme_stale=False; readme_scope_ok=True",""

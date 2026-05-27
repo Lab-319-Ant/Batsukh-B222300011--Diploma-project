@@ -1,0 +1,5 @@
+module_name,total_decisions,final_safe_action,final_noop,rejected_priority_conflict,rejected_safety_conflict,unresolved_unsafe_fallback,diagnostic_only,executable_count,non_executable_count
+COC/OH,15,9,6,0,0,0,0,9,6
+LB/MLB,189,55,25,51,0,58,0,55,134
+ES,223,66,156,0,1,0,0,66,157
+HO/MRO,134,108,1,22,0,3,0,108,26

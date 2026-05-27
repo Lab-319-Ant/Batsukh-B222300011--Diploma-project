@@ -1,0 +1,3 @@
+check_name,pass_flag,notes
+original_topology_unchanged,1,"original topology.sectors values are byte-for-byte unchanged."
+cloned_has_action_delta,1,"cloned topology.sectors reflects +2 dB P_RS, -1 deg tilt, +3 dB CIO."

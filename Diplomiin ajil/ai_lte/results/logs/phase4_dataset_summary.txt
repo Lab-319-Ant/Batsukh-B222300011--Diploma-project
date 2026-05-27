@@ -1,0 +1,7 @@
+Phase 4 multi-scenario dataset summary
+Scenario types: 8
+Realizations per scenario: 21
+Network-state rows: 168
+Sector-state rows: 3528
+Validation passed checks: 13
+Validation failed checks: 0

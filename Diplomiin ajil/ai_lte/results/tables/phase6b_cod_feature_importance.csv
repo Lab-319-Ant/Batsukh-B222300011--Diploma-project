@@ -1,0 +1,17 @@
+feature_name,importance
+attached_ue_count,1.61562162469158
+mean_RSRP_dBm,0.751569734607206
+median_RSRP_dBm,0.667436694194077
+mean_SINR_dB,0.552607973278106
+attach_rate_sector,0.514964786156405
+median_SINR_dB,0.469531552947798
+qos_satisfaction_ratio,0.437599766112999
+offered_traffic_Mbps,0.332577805258998
+served_traffic_Mbps,0.332029781014054
+sector_load_ratio,0.272922737434532
+active_ue_count,0.268165197080456
+median_UE_throughput_Mbps,0.190563928149632
+mean_UE_throughput_Mbps,0.177866939063513
+handover_risk_score,0.149863195326685
+boundary_ue_ratio,0.129442988735808
+unserved_traffic_Mbps,0.0708881205008335

@@ -1,0 +1,6 @@
+check_name,pass_flag,notes
+cio_column_exists,1,cio_dB column added by initialize_action_state_columns.
+cio_default_zero,1,all entries of cio_dB are zero at initialization.
+zero_bias_assoc_unchanged,1,biased best-server == physical best-server when CIO=0.
+biased_changes_serving,1,20 UEs change serving sector after +6 dB bias on sector 13.
+physical_rsrp_unchanged,1,physical RSRP matrix is not mutated by CIO bias.

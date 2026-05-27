@@ -1,0 +1,18 @@
+check_name,severity,pass_flag,actual_value,expected_condition,notes
+all_module_model_files_exist,error,1,"",== empty,Phase 9B must save four .mat models.
+metrics_table_exists,error,1,"372 metric rows",> 0,phase9b_action_value_metrics.csv must be written and populated.
+predictions_table_exists,error,1,"108768 prediction rows",> 0,phase9b_action_value_predictions.csv must be written.
+feature_importance_table_exists,error,1,"40 importance rows",> 0,phase9b_action_value_feature_importance.csv must be written.
+no_forbidden_features_used,error,1,"",== empty,Forbidden columns must never be used as model input.
+no_post_columns_used,error,1,"",== empty,No post-action KPI column may be used as model input.
+reward_not_used_as_input,error,1,"reward",!= used,Reward target must not appear in any module input feature list.
+oracle_selected_not_used_as_input,error,1,"oracle_selected",!= used,Oracle-selected flag must not be a model input.
+safety_valid_not_used_as_input,error,1,"safety_valid",!= used,safety_valid must not be a model input.
+each_module_has_train_test_rows,error,1,"",== empty,Every module must produce non-empty train and test splits.
+finite_predictions_per_module,error,1,"",== empty,Predictions must be finite for every module.
+regret_preview_rows_per_module,error,1,"",== empty,Each module must have at least one oracle-regret preview row.
+top1_match_rate_reported,error,1,"4 top-1 rows",>= 4,Top-1 oracle match rate must be reported per module.
+regret_values_are_finite,error,1,"0 non-finite regret",== 0,Regret values must be finite numbers.
+module_test_r2_above_0_20,warning,0,"LB/MLB:-0.040",>= 0.20,Modules with test R2 below 0.20 are flagged for review.
+mean_regret_not_high,warning,1,"",<= 1.0,Modules with mean oracle regret above 1.0 are flagged for review.
+no_unsafe_top1_selections,warning,0,"COC/OH:1, ES:134, HO/MRO:23, LB/MLB:100",== 0,Top-1 predicted action is unsafe for the listed modules and group counts.

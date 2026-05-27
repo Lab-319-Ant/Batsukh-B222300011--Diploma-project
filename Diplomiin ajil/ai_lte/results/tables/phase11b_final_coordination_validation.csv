@@ -1,0 +1,22 @@
+check_name,severity,pass_flag,actual_value,expected_condition,notes
+final_decision_table_exists,error,1,561 rows,> 0,phase11b_final_coordinator_decisions.csv must be written and non-empty.
+executable_action_table_exists,error,1,238 executable rows,>= 0,phase11b_final_executable_actions.csv must be written.
+unresolved_fallback_diagnostic_table_exists,error,1,61 unresolved rows,>= 0,phase11b_unresolved_fallback_diagnostics.csv must be written.
+rejected_action_table_exists,error,1,74 rejected rows,>= 0,phase11b_final_rejected_actions.csv must be written.
+every_phase11a_candidate_present,error,1,0 missing,== 0,Every Phase 11A candidate must appear in the Phase 11B final decision table.
+every_decision_has_status,error,1,0 empty,== 0,final_decision_status must be set on every row.
+status_values_are_known,error,1,0 unknown,== 0,final_decision_status must be one of the six allowed values.
+noop_rows_not_executable,error,1,0 violations,== 0,final_noop rows must have executable_flag = false.
+unresolved_fallback_not_executable,error,1,0 violations,== 0,unresolved_unsafe_fallback rows must have executable_flag = false.
+rejected_rows_not_executable,error,1,0 violations,== 0,rejected rows must have executable_flag = false.
+executable_only_for_final_safe_action,error,1,0 violations,== 0,executable_flag = true must occur only on final_safe_action rows.
+every_executable_row_is_safety_valid,error,1,all_safe=1,== true,Every executable row must carry safety_valid = true.
+all_rows_marked_not_applied,error,1,561/561 not_applied,== 561,Every Phase 11B row must carry not_applied_flag = true.
+no_unsafe_fallback_executable,error,1,0 violations,== 0,No unsafe fallback row may be marked executable.
+no_duplicate_executable_application_target_parameter,error,1,0 groups with duplicates,== 0,No two executable actions may write the same application sector/state variable in one coordinator group.
+duplicate_application_target_conflicts_resolved_before_executable,error,1,73 duplicate conflict rows logged,duplicates == 0,Duplicate application target/parameter conflicts must be resolved before final executable table.
+no_action_applied_to_simulator,error,1,no simulator-application calls found,== false,Phase 11B source must not write simulator state.
+no_kpi_t_plus_1_columns,error,1,,== empty,No KPI(t+1) column may exist.
+no_closed_loop_columns,error,1,,== empty,No closed-loop columns may exist.
+summary_by_module_exists,error,1,4 module rows,> 0,phase11b_summary_by_module.csv must contain rows.
+summary_by_scenario_exists,error,1,8 scenario rows,> 0,phase11b_summary_by_scenario.csv must contain rows.

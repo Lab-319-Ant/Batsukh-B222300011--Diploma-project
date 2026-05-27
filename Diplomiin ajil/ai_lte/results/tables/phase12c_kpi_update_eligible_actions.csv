@@ -1,0 +1,65 @@
+final_decision_id,coordinator_group_id,selected_action_id_safe,scenario_name,realization_id,module_name,decision_source_sector_id,decision_target_sector_id,source_sector_id,target_sector_id,coordinator_affected_sector_id,application_affected_sector_id,application_state_variable,action_type,affected_parameter,delta_prs_dB,delta_tilt_deg,delta_cio_dB,implementability_status,simulator_state_variables,can_apply_in_phase12d,kpi_t_plus_1_not_generated_flag
+1,1,749,outage_sector,2,COC/OH,2,12,2,12,12,12,sectors.referencePowerOffset_dB|sectors.electricalTilt_deg|sectors.cio_dB,compensate_neighbor,RS_power|tilt|CIO,3,-2,2,implementable_now,sectors.cio_dB; sectors.electricalTilt_deg; sectors.referencePowerOffset_dB,1,1
+4,4,3731,outage_sector,9,COC/OH,9,1,9,1,1,1,sectors.referencePowerOffset_dB|sectors.electricalTilt_deg|sectors.cio_dB,compensate_neighbor,RS_power|tilt|CIO,3,-2,2,implementable_now,sectors.cio_dB; sectors.electricalTilt_deg; sectors.referencePowerOffset_dB,1,1
+6,6,4501,mixed_conflict,11,COC/OH,11,2,11,2,2,2,sectors.electricalTilt_deg,compensate_neighbor,tilt,0,-1,0,implementable_now,sectors.electricalTilt_deg,1,1
+7,7,5435,outage_sector,13,COC/OH,13,2,13,2,2,2,sectors.referencePowerOffset_dB|sectors.electricalTilt_deg|sectors.cio_dB,compensate_neighbor,RS_power|tilt|CIO,3,-2,2,implementable_now,sectors.cio_dB; sectors.electricalTilt_deg; sectors.referencePowerOffset_dB,1,1
+8,8,6287,outage_sector,15,COC/OH,15,17,15,17,17,17,sectors.referencePowerOffset_dB|sectors.electricalTilt_deg|sectors.cio_dB,compensate_neighbor,RS_power|tilt|CIO,3,-2,2,implementable_now,sectors.cio_dB; sectors.electricalTilt_deg; sectors.referencePowerOffset_dB,1,1
+9,9,6584,mixed_conflict,16,COC/OH,16,3,16,3,3,3,sectors.electricalTilt_deg,compensate_neighbor,tilt,0,-1,0,implementable_now,sectors.electricalTilt_deg,1,1
+10,10,7057,mixed_conflict,17,COC/OH,17,12,17,12,12,12,sectors.electricalTilt_deg,compensate_neighbor,tilt,0,-1,0,implementable_now,sectors.electricalTilt_deg,1,1
+12,12,7483,mixed_conflict,18,COC/OH,18,15,18,15,15,15,sectors.electricalTilt_deg,compensate_neighbor,tilt,0,-1,0,implementable_now,sectors.electricalTilt_deg,1,1
+13,13,7565,outage_sector,18,COC/OH,18,16,18,16,16,16,sectors.referencePowerOffset_dB|sectors.electricalTilt_deg|sectors.cio_dB,compensate_neighbor,RS_power|tilt|CIO,3,-2,2,implementable_now,sectors.cio_dB; sectors.electricalTilt_deg; sectors.referencePowerOffset_dB,1,1
+16,16,8997,mixed_conflict,1,LB/MLB,2,1,2,1,2,1,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+17,16,9005,mixed_conflict,1,LB/MLB,3,20,3,20,3,20,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+19,16,9031,mixed_conflict,1,LB/MLB,8,7,8,7,8,7,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+20,16,9048,mixed_conflict,1,LB/MLB,10,5,10,5,10,5,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+23,16,9088,mixed_conflict,1,LB/MLB,13,15,13,15,13,15,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+24,16,9097,mixed_conflict,1,LB/MLB,14,17,14,17,14,17,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+33,17,9227,overload,1,LB/MLB,8,7,8,7,8,7,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+34,17,9236,overload,1,LB/MLB,9,1,9,1,9,1,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+40,17,9314,overload,1,LB/MLB,15,17,15,17,15,17,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+44,17,9366,overload,1,LB/MLB,20,3,20,3,20,3,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+48,18,9438,mixed_conflict,2,LB/MLB,4,19,4,19,4,19,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+55,18,9529,mixed_conflict,2,LB/MLB,11,2,11,2,11,2,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+58,18,9568,mixed_conflict,2,LB/MLB,15,14,15,14,15,14,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+59,18,9582,mixed_conflict,2,LB/MLB,16,18,16,18,16,18,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+66,2,9913,degraded_sector,3,LB/MLB,1,5,1,5,1,5,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,6,implementable_now,sectors.cio_dB,1,1
+72,19,10028,mixed_conflict,3,LB/MLB,9,1,9,1,9,1,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+73,19,10045,mixed_conflict,3,LB/MLB,10,11,10,11,10,11,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+75,19,10068,mixed_conflict,3,LB/MLB,12,2,12,2,12,2,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+76,19,10089,mixed_conflict,3,LB/MLB,13,15,13,15,13,15,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+78,19,10111,mixed_conflict,3,LB/MLB,16,3,16,3,16,3,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+82,20,10160,normal,3,LB/MLB,3,16,3,16,3,16,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,6,implementable_now,sectors.cio_dB,1,1
+85,21,10433,degraded_sector,4,LB/MLB,13,2,13,2,13,2,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,6,implementable_now,sectors.cio_dB,1,1
+88,22,10471,handover_stress,4,LB/MLB,16,20,16,20,16,20,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+89,23,10939,handover_stress,5,LB/MLB,3,16,3,16,3,16,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+90,23,10952,handover_stress,5,LB/MLB,4,5,4,5,4,5,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+92,24,11199,outage_sector,5,LB/MLB,1,5,1,5,1,5,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+93,25,11446,degraded_sector,6,LB/MLB,2,12,2,12,2,12,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+96,26,11740,outage_sector,6,LB/MLB,9,5,9,5,9,5,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+100,27,12537,mixed_conflict,8,LB/MLB,3,16,3,16,3,16,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+102,27,12571,mixed_conflict,8,LB/MLB,5,4,5,4,5,4,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+107,27,12633,mixed_conflict,8,LB/MLB,11,8,11,8,11,8,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+109,27,12663,mixed_conflict,8,LB/MLB,13,15,13,15,13,15,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+116,29,14670,overload,12,LB/MLB,5,1,5,1,5,1,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+121,29,14739,overload,12,LB/MLB,10,11,10,11,10,11,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+122,29,14747,overload,12,LB/MLB,12,2,12,2,12,2,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+128,29,14833,overload,12,LB/MLB,18,15,18,15,18,15,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+130,29,14859,overload,12,LB/MLB,20,21,20,21,20,21,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+137,30,15237,overload,13,LB/MLB,9,5,9,5,9,5,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+150,31,15675,normal,14,LB/MLB,12,13,12,13,12,13,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+152,32,15718,overload,14,LB/MLB,1,3,1,3,1,3,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+160,32,15818,overload,14,LB/MLB,11,8,11,8,11,8,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+164,32,15873,overload,14,LB/MLB,15,14,15,14,15,14,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+165,32,15879,overload,14,LB/MLB,16,20,16,20,16,20,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+171,33,16247,overload,15,LB/MLB,2,13,2,13,2,13,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+174,33,16285,overload,15,LB/MLB,5,9,5,9,5,9,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+175,33,16295,overload,15,LB/MLB,6,19,6,19,6,19,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+176,33,16312,overload,15,LB/MLB,7,10,7,10,7,10,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+186,34,16451,handover_stress,16,LB/MLB,16,20,16,20,16,20,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+187,35,16888,handover_stress,17,LB/MLB,12,10,12,10,12,10,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+188,13,17534,outage_sector,18,LB/MLB,14,17,14,17,14,17,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+189,36,17790,mixed_conflict,19,LB/MLB,3,16,3,16,3,16,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+191,36,17816,mixed_conflict,19,LB/MLB,5,1,5,1,5,1,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+196,36,17889,mixed_conflict,19,LB/MLB,12,10,12,10,12,10,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,3,implementable_now,sectors.cio_dB,1,1
+197,36,17893,mixed_conflict,19,LB/MLB,13,2,13,2,13,2,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1
+201,36,17949,mixed_conflict,19,LB/MLB,19,21,19,21,19,21,sectors.cio_dB,cio_bias_to_neighbor,CIO_bias,0,0,-3,implementable_now,sectors.cio_dB,1,1

@@ -1,0 +1,9 @@
+module_name,split,row_count,safe_training_candidate_count,unique_realization_count
+COC/OH,test,2130,1609,12
+COC/OH,train,6816,4763,20
+LB/MLB,test,2457,712,17
+LB/MLB,train,7891,2307,21
+ES,test,647,513,17
+ES,train,2017,1602,21
+HO/MRO,test,23852,20352,17
+HO/MRO,train,85084,71010,21

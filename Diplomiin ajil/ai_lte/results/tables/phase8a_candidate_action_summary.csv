@@ -1,0 +1,10 @@
+module_name,action_type,candidate_count
+COC/OH,compensate_neighbor,8883
+COC/OH,no_op,63
+ES,keep_active,924
+ES,sleep,816
+ES,wake_up,924
+HO/MRO,handover_parameter_adjustment,108324
+HO/MRO,no_op,612
+LB/MLB,cio_bias_to_neighbor,9552
+LB/MLB,no_op,796

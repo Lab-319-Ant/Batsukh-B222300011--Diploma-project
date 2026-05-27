@@ -1,0 +1,4 @@
+check_name,pass_flag,notes
+physical_rsrp_increased_by_delta,1,mean delta for near UEs = 3.0000 dB (expected 3.0).
+other_sectors_unchanged,1,RSRP from other sectors not affected by the offset.
+original_state_unchanged,1,original topology.sectors.referencePowerOffset_dB still 0 at test sector.

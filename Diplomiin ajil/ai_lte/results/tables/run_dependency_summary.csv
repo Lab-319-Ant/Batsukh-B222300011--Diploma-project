@@ -1,0 +1,12 @@
+run_mode,artifact_role,artifact_path,exists_flag,is_folder,bytes,modified_time,phase4_realizations_per_scenario
+full,active_config,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\config\sim_config.m,1,0,8835,2026-05-21 19:53:44,21
+full,phase8a_neighbor_rf_evidence,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\results\tables\phase1b_ue_rf_results.csv,1,0,40623,2026-05-21 20:06:51,21
+full,phase8a_phase8b_state_input,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\results\tables\phase4_sector_state_dataset.csv,1,0,996071,2026-05-21 20:07:37,21
+full,phase4_network_input,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\results\tables\phase4_network_state_dataset.csv,1,0,56844,2026-05-21 20:07:37,21
+full,phase8a_cluster_input,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\results\tables\phase5_sector_cluster_assignments.csv,0,0,NaN,,21
+full,phase8a_trigger_input,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\results\tables\phase5_cluster_trigger_support.csv,0,0,NaN,,21
+full,phase8a_cod_support_input,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\results\tables\phase6b_cod_predictions_external.csv,1,0,265476,2026-05-21 20:07:56,21
+full,phase8b_candidate_input,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\results\tables\phase8a_candidate_actions.csv,1,0,37184269,2026-05-21 20:14:20,21
+full,phase8a_neighbor_output,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\results\tables\phase8a_neighbor_ranking.csv,1,0,30596,2026-05-21 20:13:56,21
+full,phase8b_output,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\results\tables\phase8b_counterfactual_action_table.csv,1,0,66456982,2026-05-21 20:14:32,21
+full,legacy_archive_folder,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\archive\legacy_single_site,1,1,0,2026-05-21 20:05:21,21

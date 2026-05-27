@@ -1,0 +1,5 @@
+action_type,total_actions,implementable_now,partially_implementable,not_implemented_in_simulator,no_parameter_change_required,can_apply_in_phase12b_count
+compensate_neighbor,9,0,4,5,0,0
+cio_bias_to_neighbor,55,0,0,55,0,0
+sleep,66,0,66,0,0,0
+handover_parameter_adjustment,108,0,0,108,0,0

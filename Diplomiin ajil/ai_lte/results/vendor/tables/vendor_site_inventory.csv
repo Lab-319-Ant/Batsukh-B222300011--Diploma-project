@@ -1,0 +1,8 @@
+sim_site_id,sim_position,vendor_site_key,vendor_file,row_count,selected_row_count,unique_vendor_cell_count,selected_vendor_cell_count
+1,CENTER,gemtel,gemtel.xlsx,1755,1755,3,3
+2,NORTH,uulzwar,uulzwar.xlsx,1758,1758,3,3
+3,NORTHEAST,denver,denver.xlsx,1764,1764,3,3
+4,SOUTHEAST,rivercastle,rivercastle.xlsx,1761,1761,3,3
+5,SOUTH,mkm,mkm.xlsx,1761,1761,3,3
+6,SOUTHWEST,shutis,shutis.xlsx,1761,1761,3,3
+7,NORTHWEST,hiid,hiid.xlsx,1764,1764,3,3

@@ -1,0 +1,23 @@
+check_name,severity,pass_flag,actual_value,expected_condition,notes
+result_table_exists,error,1,"64 rows",> 0,phase12d_one_step_kpi_update_results.csv must be written and non-empty.
+only_phase12c_eligible_applied,error,1,"0 non-eligible applied",== 0,Every applied action must come from phase12c_kpi_update_eligible_actions.
+no_excluded_applied,error,1,"0 excluded applied",== 0,No excluded action may be applied.
+no_es_actions_applied,error,1,"0 ES applied",== 0,No ES action may be applied in Phase 12D.
+no_homro_actions_applied,error,1,"0 HO/MRO applied",== 0,No HO/MRO action may be applied in Phase 12D.
+no_unresolved_fallback_applied,error,1,"0",== 0,No unresolved unsafe fallback action may be applied.
+no_rejected_applied,error,1,"0",== 0,No rejected action may be applied.
+no_noop_applied,error,1,"0",== 0,No no-op action may be applied.
+original_state_unchanged,error,1,"true",== true,Phase 12D must not mutate the input topology sectors.
+all_applied_flagged,error,1,"64/64 true",all true,action_applied_to_clone must be true on every result row.
+kpi_t_plus_1_generated_flag_set,error,1,"64/64 true",all true,kpi_t_plus_1_generated must be true on every result row.
+post_kpis_finite,error,1,"0 non-finite",== 0,All post-action KPI values must be finite.
+kpis_within_valid_ranges,error,1,"0 out-of-range rows",== 0,KPI values must lie inside physically plausible ranges.
+cio_changes_assoc_only_inherited,error,1,"true",== true,Phase 12B already verified CIO bias does not modify physical RSRP; check inherited here.
+ref_power_offset_changes_rsrp_inherited,error,1,"true",== true,Phase 12B already verified reference power offset shifts physical RSRP; check inherited here.
+tilt_effect_reflected_inherited,error,1,"true",== true,Tilt impact on RSRP is verified in Phase 12B.
+summary_by_module_exists,error,1,"true",== true,phase12d_summary_by_module.csv must be written.
+summary_by_scenario_exists,error,1,"true",== true,phase12d_summary_by_scenario.csv must be written.
+no_duplicate_applied_application_target_parameter,error,1,"0 groups with duplicates",== 0,No two applied actions may write the same application sector/state variable in one coordinator group.
+kpi_does_not_worsen_on_average,warning,0,"mean delta_qos=0.0156, delta_attach=-0.0121",mean(delta) >= 0,On average across all applied actions the relevant KPI should not decline; flagged if it does.
+no_multi_step_loop,error,1,"no multi-step loop constructs found",== false,Phase 12D orchestrator must not implement a multi-step closed-loop iteration.
+no_closed_loop_columns,error,1,"",== empty,No closed-loop column may appear in Phase 12D outputs.

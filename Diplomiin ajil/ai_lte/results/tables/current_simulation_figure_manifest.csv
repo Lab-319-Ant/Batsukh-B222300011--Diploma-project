@@ -1,0 +1,25 @@
+artifact_name,relative_path,exists_flag,layer,notes
+system_architecture_workflow,results/figures/current_system_architecture_workflow.png,1,Architecture,Overall simulator and ML workflow diagram
+topology_and_ue_attachment,results/figures/phase1b_topology_ue_attachment.png,1,Network/UE/RF,7-site / 21-sector topology with UE attachment
+best_server_map,results/figures/phase1b_best_server_map.png,1,Network/UE/RF,Best serving sector map
+best_rsrp_map,results/figures/phase1b_best_rsrp_map.png,1,Network/UE/RF,Best RSRP map
+best_sinr_map,results/figures/phase1b_best_sinr_map.png,1,Network/UE/RF,Best SINR map
+sector_load_map,results/figures/phase2_sector_load_map.png,1,Traffic/KPI,Traffic-aware sector load map
+ue_throughput_map,results/figures/phase2_ue_throughput_map.png,1,Traffic/KPI,UE throughput map
+qos_satisfaction_map,results/figures/phase2_qos_satisfaction_map.png,1,Traffic/KPI,UE QoS satisfaction map
+scenario_summary,results/figures/phase3_scenario_summary.png,1,Scenarios,Scenario-level KPI summary
+dataset_summary,results/figures/phase4_dataset_summary.png,1,Dataset,Multi-scenario dataset summary
+cluster_pca,results/figures/phase5_cluster_pca.png,1,Clustering,Cluster state PCA diagnostic
+cluster_scenario_heatmap,results/figures/phase5_cluster_scenario_heatmap.png,1,Clustering,Cluster by scenario heatmap
+cod_confusion_matrix,results/figures/phase6b_cod_test_confusion_matrix.png,1,COD,COD test confusion matrix
+tp_actual_vs_predicted,results/figures/phase7b_tp_actual_vs_predicted.png,1,TP/QP,TP actual vs predicted load
+qp_bounded_density,results/figures/phase7d_qp_bounded_actual_vs_predicted_with_density.png,1,TP/QP,QP bounded diagnostic with density
+candidate_action_counts,results/figures/phase8a_candidate_action_counts.png,1,Actions,Candidate action counts
+action_value_regret,results/figures/phase9b_action_value_oracle_regret.png,1,Action-value ML,Action-value oracle regret preview
+safety_raw_vs_safe,results/figures/phase10a_raw_vs_safe_selection.png,1,Safety,Raw vs safety-enforced selection
+coordinator_conflict_counts,results/figures/phase11a_conflict_counts.png,1,Coordinator,Coordinator conflict counts
+final_decision_status,results/figures/phase11b_final_decision_status.png,1,Coordinator,Final decision status
+one_step_pre_post_kpi,results/figures/phase12d_pre_post_kpi_by_module.png,1,One-step KPI,Pre/post KPI by module for applied actions
+baseline_ai_oracle_kpis,results/figures/phase12e_baseline_ai_oracle_kpis.png,1,Final comparison,Baseline vs AI/ML vs oracle KPI comparison
+attach_qos_tradeoff,results/figures/phase12e_tradeoff_attach_vs_qos.png,1,Final comparison,Attach vs QoS tradeoff
+phase13_before_after_kpi,results/thesis_package/final_before_after_kpi_comparison.png,1,Thesis package,Final packaged before/after KPI comparison

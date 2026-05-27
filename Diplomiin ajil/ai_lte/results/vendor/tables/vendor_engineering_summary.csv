@@ -1,0 +1,2 @@
+selected_site_count,selected_sector_count,selected_row_count,cod_normal_rows,cod_degraded_rows,cod_outage_like_rows,coc_rule_candidate_rows,coc_ml_advisory_rows,coc_rejected_rows,incomplete_selected_cells,ignored_extra_cells,range_violation_rows,impossible_state_rows,tp_overload_episode_count,qp_degradation_episode_count,es_sleep_candidate_count,claim_boundary
+7,21,12324,12162,22,140,0,38,150,21,0,0,0,329,11,0,Suggestion-only. No real parameter changes applied; no before/after healing claim.

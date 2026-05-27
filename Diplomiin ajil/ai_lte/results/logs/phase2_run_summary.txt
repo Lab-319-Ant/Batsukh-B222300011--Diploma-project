@@ -1,0 +1,12 @@
+Phase 2 traffic and KPI simulation run
+Phase: Phase8B_Counterfactual_Action_Evaluation
+Traffic mode: normal
+Active UEs: 75
+Total offered traffic Mbps: 360.525014
+Total served traffic Mbps: 353.286749
+Total unserved traffic Mbps: 7.238266
+QoS satisfaction ratio: 0.986667
+Overloaded sector count: 0
+Mean sector load: 0.386865
+Max sector load: 0.753731
+Jain fairness index: 0.125642

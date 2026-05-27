@@ -1,0 +1,4 @@
+check_name,row_count
+high_traffic_with_zero_users,0
+unavailable_but_has_traffic_or_users,0
+prb_over_100_percent,0

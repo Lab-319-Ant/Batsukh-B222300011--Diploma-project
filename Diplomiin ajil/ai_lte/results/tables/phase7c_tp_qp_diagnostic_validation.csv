@@ -1,0 +1,13 @@
+check_name,severity,pass_flag,actual_value,expected_condition,notes
+tp_baseline_comparison_exists,error,1,"phase7c_tp_baseline_comparison.csv","TP baseline comparison table must exist.",
+qp_baseline_comparison_exists,error,1,"phase7c_qp_baseline_comparison.csv","QP baseline comparison table must exist.",
+qp_bounded_metrics_exists,error,1,"phase7c_qp_bounded_prediction_metrics.csv","QP bounded metrics table must exist.",
+qp_target_variance_diagnostic_exists,error,1,"phase7c_qp_target_variance_diagnostic.csv","QP target variance diagnostic table must exist.",
+tp_persistence_baseline_reported,error,1,"TP_persistence","Persistence baseline must be reported for TP.",
+qp_persistence_baseline_reported,error,1,"QP_persistence","Persistence baseline must be reported for QP.",
+qp_raw_and_bounded_evaluated,error,1,"QP_bounded, QP_raw","QP raw and bounded predictions must both be evaluated.",
+bounded_qp_predictions_within_range,error,1,"true","Bounded QP predictions must be within [0, 1].",
+low_variance_qp_cases_flagged,error,1,"true","Scenario-wise QP low-variance cases must be flagged.",
+no_forbidden_features_used,error,1,"","Forbidden metadata/status/power columns must not be model inputs.",
+no_future_targets_used_as_inputs,error,1,"","Future target columns must not be used as inputs.",
+scenario_name_grouping_only,error,1,"true","scenario_name must be used only for grouped reporting.",

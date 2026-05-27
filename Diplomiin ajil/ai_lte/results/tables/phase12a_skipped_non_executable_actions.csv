@@ -1,0 +1,324 @@
+final_decision_id,scenario_name,realization_id,selected_action_id_safe,module_name,final_decision_status,reason_not_applied
+2,degraded_sector,3,853,COC/OH,final_noop,no-op decision; no parameter change to apply
+3,degraded_sector,9,3409,COC/OH,final_noop,no-op decision; no parameter change to apply
+5,mixed_conflict,10,3977,COC/OH,final_noop,no-op decision; no parameter change to apply
+11,degraded_sector,18,7243,COC/OH,final_noop,no-op decision; no parameter change to apply
+14,degraded_sector,20,8095,COC/OH,final_noop,no-op decision; no parameter change to apply
+15,degraded_sector,21,8521,COC/OH,final_noop,no-op decision; no parameter change to apply
+18,mixed_conflict,1,9022,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+21,mixed_conflict,1,9051,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+22,mixed_conflict,1,9064,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+25,mixed_conflict,1,9105,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+26,mixed_conflict,1,9126,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+27,mixed_conflict,1,9129,LB/MLB,final_noop,no-op decision; no parameter change to apply
+28,mixed_conflict,1,9152,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+29,overload,1,9179,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+30,overload,1,9188,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+31,overload,1,9197,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+32,overload,1,9207,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+35,overload,1,9246,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+36,overload,1,9259,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+37,overload,1,9272,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+38,overload,1,9285,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+39,overload,1,9305,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+41,overload,1,9332,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+42,overload,1,9337,LB/MLB,final_noop,no-op decision; no parameter change to apply
+43,overload,1,9350,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+45,overload,1,9376,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+46,mixed_conflict,2,9402,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+47,mixed_conflict,2,9425,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+49,mixed_conflict,2,9441,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+50,mixed_conflict,2,9456,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+51,mixed_conflict,2,9467,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+52,mixed_conflict,2,9480,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+53,mixed_conflict,2,9493,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+54,mixed_conflict,2,9506,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+56,mixed_conflict,2,9534,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+57,mixed_conflict,2,9547,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+60,mixed_conflict,2,9584,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+61,mixed_conflict,2,9597,LB/MLB,final_noop,no-op decision; no parameter change to apply
+62,mixed_conflict,2,9610,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+63,mixed_conflict,2,9625,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+64,outage_sector,2,9649,LB/MLB,final_noop,no-op decision; no parameter change to apply
+65,outage_sector,2,9662,LB/MLB,final_noop,no-op decision; no parameter change to apply
+67,mixed_conflict,3,9961,LB/MLB,final_noop,no-op decision; no parameter change to apply
+68,mixed_conflict,3,9976,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+69,mixed_conflict,3,9987,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+70,mixed_conflict,3,10000,LB/MLB,final_noop,no-op decision; no parameter change to apply
+71,mixed_conflict,3,10013,LB/MLB,final_noop,no-op decision; no parameter change to apply
+74,mixed_conflict,3,10052,LB/MLB,final_noop,no-op decision; no parameter change to apply
+77,mixed_conflict,3,10102,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+79,mixed_conflict,3,10117,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+80,mixed_conflict,3,10133,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+81,mixed_conflict,3,10143,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+83,degraded_sector,4,10403,LB/MLB,final_noop,no-op decision; no parameter change to apply
+84,degraded_sector,4,10419,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+86,degraded_sector,4,10442,LB/MLB,final_noop,no-op decision; no parameter change to apply
+87,handover_stress,4,10455,LB/MLB,final_noop,no-op decision; no parameter change to apply
+91,handover_stress,5,10962,LB/MLB,final_noop,no-op decision; no parameter change to apply
+94,degraded_sector,6,11456,LB/MLB,final_noop,no-op decision; no parameter change to apply
+95,degraded_sector,6,11469,LB/MLB,final_noop,no-op decision; no parameter change to apply
+97,outage_sector,6,11742,LB/MLB,final_noop,no-op decision; no parameter change to apply
+98,mixed_conflict,8,12509,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+99,mixed_conflict,8,12522,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+101,mixed_conflict,8,12548,LB/MLB,final_noop,no-op decision; no parameter change to apply
+103,mixed_conflict,8,12580,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+104,mixed_conflict,8,12590,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+105,mixed_conflict,8,12600,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+106,mixed_conflict,8,12616,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+108,mixed_conflict,8,12639,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+110,mixed_conflict,8,12665,LB/MLB,final_noop,no-op decision; no parameter change to apply
+111,mixed_conflict,8,12678,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+112,mixed_conflict,8,12697,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+113,mixed_conflict,8,12704,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+114,degraded_sector,11,13900,LB/MLB,final_noop,no-op decision; no parameter change to apply
+115,overload,12,14664,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+117,overload,12,14680,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+118,overload,12,14705,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+119,overload,12,14706,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+120,overload,12,14719,LB/MLB,final_noop,no-op decision; no parameter change to apply
+123,overload,12,14760,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+124,overload,12,14781,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+125,overload,12,14784,LB/MLB,final_noop,no-op decision; no parameter change to apply
+126,overload,12,14797,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+127,overload,12,14812,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+129,overload,12,14842,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+131,overload,13,15150,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+132,overload,13,15161,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+133,overload,13,15174,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+134,overload,13,15187,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+135,overload,13,15200,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+136,overload,13,15213,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+138,overload,13,15249,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+139,overload,13,15252,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+140,overload,13,15265,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+141,overload,13,15278,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+142,overload,13,15291,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+143,overload,13,15304,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+144,overload,13,15317,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+145,overload,13,15330,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+146,overload,13,15343,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+147,overload,13,15356,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+148,overload,13,15369,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+149,overload,13,15382,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+151,normal,14,15689,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+153,overload,14,15720,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+154,overload,14,15733,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+155,overload,14,15746,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+156,overload,14,15771,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+157,overload,14,15774,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+158,overload,14,15785,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+159,overload,14,15800,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+161,overload,14,15824,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+162,overload,14,15837,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+163,overload,14,15850,LB/MLB,final_noop,no-op decision; no parameter change to apply
+166,overload,14,15889,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+167,overload,14,15908,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+168,overload,14,15926,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+169,overload,14,15939,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+170,overload,15,16233,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+172,overload,15,16253,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+173,overload,15,16277,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+177,overload,15,16322,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+178,overload,15,16343,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+179,overload,15,16351,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+180,overload,15,16357,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+181,overload,15,16370,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+182,overload,15,16383,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+183,overload,15,16396,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+184,overload,15,16412,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+185,handover_stress,16,16435,LB/MLB,final_noop,no-op decision; no parameter change to apply
+190,mixed_conflict,19,17807,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+192,mixed_conflict,19,17832,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+193,mixed_conflict,19,17850,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+194,mixed_conflict,19,17855,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+195,mixed_conflict,19,17868,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+198,mixed_conflict,19,17914,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+199,mixed_conflict,19,17917,LB/MLB,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+200,mixed_conflict,19,17936,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+202,mixed_conflict,19,17962,LB/MLB,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+203,normal,21,19022,LB/MLB,final_noop,no-op decision; no parameter change to apply
+204,normal,21,19035,LB/MLB,final_noop,no-op decision; no parameter change to apply
+205,handover_stress,1,19295,ES,final_noop,no-op decision; no parameter change to apply
+207,low_load,1,19301,ES,final_noop,no-op decision; no parameter change to apply
+208,low_load,1,19303,ES,final_noop,no-op decision; no parameter change to apply
+209,low_load,1,19306,ES,final_noop,no-op decision; no parameter change to apply
+210,low_load,1,19309,ES,final_noop,no-op decision; no parameter change to apply
+213,low_load,1,19318,ES,final_noop,no-op decision; no parameter change to apply
+214,low_load,1,19321,ES,final_noop,no-op decision; no parameter change to apply
+215,low_load,1,19324,ES,final_noop,no-op decision; no parameter change to apply
+216,low_load,1,19327,ES,final_noop,no-op decision; no parameter change to apply
+218,low_load,1,19332,ES,final_noop,no-op decision; no parameter change to apply
+221,low_load,1,19341,ES,final_noop,no-op decision; no parameter change to apply
+222,handover_stress,2,19410,ES,final_noop,no-op decision; no parameter change to apply
+223,handover_stress,2,19413,ES,final_noop,no-op decision; no parameter change to apply
+226,low_load,2,19422,ES,final_noop,no-op decision; no parameter change to apply
+227,low_load,2,19425,ES,final_noop,no-op decision; no parameter change to apply
+228,low_load,2,19428,ES,final_noop,no-op decision; no parameter change to apply
+229,low_load,2,19431,ES,final_noop,no-op decision; no parameter change to apply
+230,low_load,2,19434,ES,final_noop,no-op decision; no parameter change to apply
+231,low_load,2,19437,ES,final_noop,no-op decision; no parameter change to apply
+232,low_load,2,19440,ES,final_noop,no-op decision; no parameter change to apply
+233,low_load,2,19443,ES,final_noop,no-op decision; no parameter change to apply
+236,low_load,2,19452,ES,final_noop,no-op decision; no parameter change to apply
+239,low_load,2,19461,ES,final_noop,no-op decision; no parameter change to apply
+240,low_load,2,19464,ES,final_noop,no-op decision; no parameter change to apply
+241,low_load,2,19467,ES,final_noop,no-op decision; no parameter change to apply
+244,normal,2,19531,ES,final_noop,no-op decision; no parameter change to apply
+247,low_load,3,19554,ES,final_noop,no-op decision; no parameter change to apply
+249,low_load,3,19559,ES,final_noop,no-op decision; no parameter change to apply
+250,low_load,3,19562,ES,final_noop,no-op decision; no parameter change to apply
+251,low_load,3,19565,ES,final_noop,no-op decision; no parameter change to apply
+252,low_load,3,19568,ES,final_noop,no-op decision; no parameter change to apply
+253,low_load,3,19571,ES,final_noop,no-op decision; no parameter change to apply
+254,low_load,3,19574,ES,final_noop,no-op decision; no parameter change to apply
+256,low_load,3,19580,ES,final_noop,no-op decision; no parameter change to apply
+257,low_load,3,19583,ES,final_noop,no-op decision; no parameter change to apply
+259,low_load,3,19589,ES,final_noop,no-op decision; no parameter change to apply
+260,low_load,3,19592,ES,final_noop,no-op decision; no parameter change to apply
+263,low_load,3,19601,ES,final_noop,no-op decision; no parameter change to apply
+265,outage_sector,3,19665,ES,final_noop,no-op decision; no parameter change to apply
+266,outage_sector,3,19667,ES,final_noop,no-op decision; no parameter change to apply
+267,overload,3,19670,ES,final_noop,no-op decision; no parameter change to apply
+268,degraded_sector,4,19672,ES,final_noop,no-op decision; no parameter change to apply
+269,degraded_sector,4,19675,ES,final_noop,no-op decision; no parameter change to apply
+271,outage_sector,5,19939,ES,final_noop,no-op decision; no parameter change to apply
+272,outage_sector,5,19941,ES,final_noop,no-op decision; no parameter change to apply
+274,low_load,8,20200,ES,final_noop,no-op decision; no parameter change to apply
+275,low_load,8,20202,ES,final_noop,no-op decision; no parameter change to apply
+276,low_load,8,20205,ES,final_noop,no-op decision; no parameter change to apply
+278,low_load,8,20211,ES,final_noop,no-op decision; no parameter change to apply
+279,low_load,8,20214,ES,final_noop,no-op decision; no parameter change to apply
+282,low_load,8,20223,ES,final_noop,no-op decision; no parameter change to apply
+283,low_load,8,20225,ES,final_noop,no-op decision; no parameter change to apply
+284,low_load,8,20227,ES,final_noop,no-op decision; no parameter change to apply
+287,low_load,8,20236,ES,final_noop,no-op decision; no parameter change to apply
+289,low_load,8,20242,ES,final_noop,no-op decision; no parameter change to apply
+291,normal,8,20297,ES,final_noop,no-op decision; no parameter change to apply
+292,normal,8,20299,ES,final_noop,no-op decision; no parameter change to apply
+293,low_load_energy_saving_candidate,9,20374,ES,final_noop,no-op decision; no parameter change to apply
+295,low_load_energy_saving_candidate,9,20380,ES,final_noop,no-op decision; no parameter change to apply
+297,low_load_energy_saving_candidate,9,20386,ES,final_noop,no-op decision; no parameter change to apply
+298,low_load_energy_saving_candidate,9,20389,ES,final_noop,no-op decision; no parameter change to apply
+299,low_load_energy_saving_candidate,9,20392,ES,final_noop,no-op decision; no parameter change to apply
+301,low_load_energy_saving_candidate,9,20398,ES,final_noop,no-op decision; no parameter change to apply
+303,low_load_energy_saving_candidate,9,20404,ES,final_noop,no-op decision; no parameter change to apply
+304,low_load_energy_saving_candidate,9,20407,ES,final_noop,no-op decision; no parameter change to apply
+305,low_load_energy_saving_candidate,9,20409,ES,final_noop,no-op decision; no parameter change to apply
+306,low_load_energy_saving_candidate,9,20412,ES,final_noop,no-op decision; no parameter change to apply
+308,low_load_energy_saving_candidate,9,20418,ES,final_noop,no-op decision; no parameter change to apply
+311,degraded_sector,10,20441,ES,final_noop,no-op decision; no parameter change to apply
+312,degraded_sector,10,20444,ES,final_noop,no-op decision; no parameter change to apply
+313,mixed_conflict,11,20678,ES,rejected_safety_conflict,rejected by Phase 11A safety conflict rule
+315,low_load_energy_saving_candidate,14,20987,ES,final_noop,no-op decision; no parameter change to apply
+316,low_load_energy_saving_candidate,14,20990,ES,final_noop,no-op decision; no parameter change to apply
+317,low_load_energy_saving_candidate,14,20993,ES,final_noop,no-op decision; no parameter change to apply
+318,low_load_energy_saving_candidate,14,20996,ES,final_noop,no-op decision; no parameter change to apply
+319,low_load_energy_saving_candidate,14,20999,ES,final_noop,no-op decision; no parameter change to apply
+321,low_load_energy_saving_candidate,14,21005,ES,final_noop,no-op decision; no parameter change to apply
+322,low_load_energy_saving_candidate,14,21007,ES,final_noop,no-op decision; no parameter change to apply
+323,low_load_energy_saving_candidate,14,21010,ES,final_noop,no-op decision; no parameter change to apply
+324,low_load_energy_saving_candidate,14,21012,ES,final_noop,no-op decision; no parameter change to apply
+325,low_load_energy_saving_candidate,14,21015,ES,final_noop,no-op decision; no parameter change to apply
+326,low_load_energy_saving_candidate,14,21018,ES,final_noop,no-op decision; no parameter change to apply
+328,low_load_energy_saving_candidate,14,21024,ES,final_noop,no-op decision; no parameter change to apply
+329,low_load_energy_saving_candidate,14,21027,ES,final_noop,no-op decision; no parameter change to apply
+332,low_load_energy_saving_candidate,14,21036,ES,final_noop,no-op decision; no parameter change to apply
+333,handover_stress,15,21053,ES,final_noop,no-op decision; no parameter change to apply
+334,handover_stress,15,21056,ES,final_noop,no-op decision; no parameter change to apply
+335,low_load_energy_saving_candidate,15,21118,ES,final_noop,no-op decision; no parameter change to apply
+336,low_load_energy_saving_candidate,15,21121,ES,final_noop,no-op decision; no parameter change to apply
+337,low_load_energy_saving_candidate,15,21124,ES,final_noop,no-op decision; no parameter change to apply
+338,low_load_energy_saving_candidate,15,21127,ES,final_noop,no-op decision; no parameter change to apply
+339,low_load_energy_saving_candidate,15,21130,ES,final_noop,no-op decision; no parameter change to apply
+341,low_load_energy_saving_candidate,15,21136,ES,final_noop,no-op decision; no parameter change to apply
+342,low_load_energy_saving_candidate,15,21139,ES,final_noop,no-op decision; no parameter change to apply
+344,low_load_energy_saving_candidate,15,21145,ES,final_noop,no-op decision; no parameter change to apply
+347,low_load_energy_saving_candidate,15,21154,ES,final_noop,no-op decision; no parameter change to apply
+350,low_load_energy_saving_candidate,15,21163,ES,final_noop,no-op decision; no parameter change to apply
+353,low_load_energy_saving_candidate,15,21172,ES,final_noop,no-op decision; no parameter change to apply
+354,low_load_energy_saving_candidate,15,21175,ES,final_noop,no-op decision; no parameter change to apply
+355,outage_sector,15,21183,ES,final_noop,no-op decision; no parameter change to apply
+356,outage_sector,15,21186,ES,final_noop,no-op decision; no parameter change to apply
+357,handover_stress,16,21191,ES,final_noop,no-op decision; no parameter change to apply
+358,handover_stress,16,21193,ES,final_noop,no-op decision; no parameter change to apply
+360,outage_sector,17,21429,ES,final_noop,no-op decision; no parameter change to apply
+361,outage_sector,17,21432,ES,final_noop,no-op decision; no parameter change to apply
+362,outage_sector,17,21435,ES,final_noop,no-op decision; no parameter change to apply
+363,outage_sector,17,21438,ES,final_noop,no-op decision; no parameter change to apply
+364,outage_sector,17,21441,ES,final_noop,no-op decision; no parameter change to apply
+365,outage_sector,17,21444,ES,final_noop,no-op decision; no parameter change to apply
+367,low_load_energy_saving_candidate,18,21515,ES,final_noop,no-op decision; no parameter change to apply
+368,low_load_energy_saving_candidate,18,21518,ES,final_noop,no-op decision; no parameter change to apply
+369,low_load_energy_saving_candidate,18,21521,ES,final_noop,no-op decision; no parameter change to apply
+370,low_load_energy_saving_candidate,18,21524,ES,final_noop,no-op decision; no parameter change to apply
+371,low_load_energy_saving_candidate,18,21527,ES,final_noop,no-op decision; no parameter change to apply
+372,low_load_energy_saving_candidate,18,21530,ES,final_noop,no-op decision; no parameter change to apply
+373,low_load_energy_saving_candidate,18,21533,ES,final_noop,no-op decision; no parameter change to apply
+374,low_load_energy_saving_candidate,18,21536,ES,final_noop,no-op decision; no parameter change to apply
+375,low_load_energy_saving_candidate,18,21538,ES,final_noop,no-op decision; no parameter change to apply
+376,low_load_energy_saving_candidate,18,21541,ES,final_noop,no-op decision; no parameter change to apply
+377,low_load_energy_saving_candidate,18,21544,ES,final_noop,no-op decision; no parameter change to apply
+378,low_load_energy_saving_candidate,18,21547,ES,final_noop,no-op decision; no parameter change to apply
+379,low_load_energy_saving_candidate,18,21550,ES,final_noop,no-op decision; no parameter change to apply
+380,low_load_energy_saving_candidate,18,21553,ES,final_noop,no-op decision; no parameter change to apply
+381,low_load_energy_saving_candidate,18,21556,ES,final_noop,no-op decision; no parameter change to apply
+383,low_load_energy_saving_candidate,18,21562,ES,final_noop,no-op decision; no parameter change to apply
+384,low_load_energy_saving_candidate,18,21565,ES,final_noop,no-op decision; no parameter change to apply
+386,low_load,19,21589,ES,final_noop,no-op decision; no parameter change to apply
+387,low_load,19,21592,ES,final_noop,no-op decision; no parameter change to apply
+388,low_load,19,21595,ES,final_noop,no-op decision; no parameter change to apply
+389,low_load,19,21598,ES,final_noop,no-op decision; no parameter change to apply
+393,low_load,19,21610,ES,final_noop,no-op decision; no parameter change to apply
+394,low_load,19,21612,ES,final_noop,no-op decision; no parameter change to apply
+395,low_load,19,21615,ES,final_noop,no-op decision; no parameter change to apply
+396,low_load,19,21618,ES,final_noop,no-op decision; no parameter change to apply
+398,low_load,19,21624,ES,final_noop,no-op decision; no parameter change to apply
+399,low_load,19,21627,ES,final_noop,no-op decision; no parameter change to apply
+400,low_load,19,21630,ES,final_noop,no-op decision; no parameter change to apply
+401,low_load,19,21633,ES,final_noop,no-op decision; no parameter change to apply
+403,low_load,19,21639,ES,final_noop,no-op decision; no parameter change to apply
+405,low_load_energy_saving_candidate,19,21645,ES,final_noop,no-op decision; no parameter change to apply
+406,low_load_energy_saving_candidate,19,21648,ES,final_noop,no-op decision; no parameter change to apply
+407,low_load_energy_saving_candidate,19,21651,ES,final_noop,no-op decision; no parameter change to apply
+409,low_load_energy_saving_candidate,19,21657,ES,final_noop,no-op decision; no parameter change to apply
+410,low_load_energy_saving_candidate,19,21660,ES,final_noop,no-op decision; no parameter change to apply
+411,low_load_energy_saving_candidate,19,21663,ES,final_noop,no-op decision; no parameter change to apply
+413,low_load_energy_saving_candidate,19,21669,ES,final_noop,no-op decision; no parameter change to apply
+414,low_load_energy_saving_candidate,19,21672,ES,final_noop,no-op decision; no parameter change to apply
+415,low_load_energy_saving_candidate,19,21675,ES,final_noop,no-op decision; no parameter change to apply
+417,low_load_energy_saving_candidate,19,21681,ES,final_noop,no-op decision; no parameter change to apply
+418,low_load_energy_saving_candidate,19,21684,ES,final_noop,no-op decision; no parameter change to apply
+419,low_load_energy_saving_candidate,19,21687,ES,final_noop,no-op decision; no parameter change to apply
+420,low_load_energy_saving_candidate,19,21690,ES,final_noop,no-op decision; no parameter change to apply
+422,low_load_energy_saving_candidate,19,21696,ES,final_noop,no-op decision; no parameter change to apply
+424,degraded_sector,20,21718,ES,final_noop,no-op decision; no parameter change to apply
+425,degraded_sector,20,21721,ES,final_noop,no-op decision; no parameter change to apply
+426,outage_sector,20,21830,ES,final_noop,no-op decision; no parameter change to apply
+427,outage_sector,20,21833,ES,final_noop,no-op decision; no parameter change to apply
+434,handover_stress,1,23217,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+435,handover_stress,1,23395,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+437,handover_stress,1,23751,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+439,handover_stress,1,24107,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+443,handover_stress,1,24819,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+444,handover_stress,1,24997,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+454,handover_stress,2,28913,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+457,handover_stress,2,29447,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+460,handover_stress,2,29981,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+465,overload,2,32283,HO/MRO,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+466,overload,2,32532,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+469,overload,3,35843,HO/MRO,final_noop,no-op decision; no parameter change to apply
+475,outage_sector,6,50095,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+481,overload,8,61119,HO/MRO,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+497,handover_stress,13,86822,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+498,handover_stress,13,86941,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+508,mixed_conflict,17,107933,HO/MRO,unresolved_unsafe_fallback,unresolved unsafe fallback; never executable
+520,handover_stress,18,110615,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+521,handover_stress,18,110793,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+523,handover_stress,18,111149,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+525,handover_stress,18,111505,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+527,handover_stress,18,111861,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+536,handover_stress,19,116429,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+537,handover_stress,19,116548,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+541,handover_stress,19,117201,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration
+544,handover_stress,19,117735,HO/MRO,rejected_priority_conflict,rejected by Phase 11A priority arbitration

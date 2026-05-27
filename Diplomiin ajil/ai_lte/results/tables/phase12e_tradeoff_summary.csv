@@ -1,0 +1,8 @@
+tradeoff_pattern,count
+qos_up_attach_down,28
+sinr_up_attach_down,56
+load_down_attach_down,51
+qos_down_despite_rsrp_sinr_up,19
+overload_qos_improved,9
+degraded_qos_worsened,2
+handover_stress_qos_worsened,2

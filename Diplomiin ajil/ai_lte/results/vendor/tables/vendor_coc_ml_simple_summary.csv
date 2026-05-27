@@ -1,0 +1,25 @@
+affected_site,affected_sector,decision,target_site,target_sector,suggested_action,safety_status,event_count,first_timestamp,last_timestamp,mean_ml_predicted_reward,max_ml_predicted_reward
+gemtel,S1,No COC action,none,none,"No RF parameter change",no_op_baseline,20,19-May-2026 02:45:00,19-May-2026 16:30:00,0.00200509758965022,0.00247739617279322
+gemtel,S3,No COC action,none,none,"No RF parameter change",no_op_baseline,20,19-May-2026 02:45:00,23-May-2026 10:00:00,0.00201444437862959,0.00247739617279322
+denver,S7,No COC action,none,none,"No RF parameter change",no_op_baseline,19,19-May-2026 03:15:00,19-May-2026 16:30:00,0.00216770599379218,0.00247739617279322
+gemtel,S2,No COC action,none,none,"No RF parameter change",no_op_baseline,19,19-May-2026 02:45:00,19-May-2026 16:30:00,0.00212350673257271,0.00247739617279322
+denver,S8,No COC action,none,none,"No RF parameter change",no_op_baseline,18,19-May-2026 03:15:00,19-May-2026 16:30:00,0.00229657096473438,0.00247739617279322
+denver,S9,No COC action,none,none,"No RF parameter change",no_op_baseline,18,19-May-2026 03:15:00,19-May-2026 16:30:00,0.00229599256505633,0.00247739617279322
+denver,S8,COC ML compensation advisory,shutis,S17,"Target S17: +3 dB RS, -1 deg eTilt",site_outage_coc_ml_advisory,4,19-May-2026 10:45:00,19-May-2026 14:45:00,0.0556426779741722,0.055671232659106
+denver,S9,COC ML compensation advisory,shutis,S17,"Target S17: +3 dB RS, -1 deg eTilt",site_outage_coc_ml_advisory,4,19-May-2026 10:45:00,19-May-2026 14:45:00,0.0556331597458609,0.0556331597458609
+shutis,S16,No COC action,none,none,"No RF parameter change",no_op_baseline,4,18-May-2026 00:45:00,24-May-2026 01:00:00,-0.000990341954385691,-0.000787868766470837
+denver,S7,COC ML compensation advisory,rivercastle,S10,"Target S10: +3 dB RS, -1 deg eTilt",site_outage_coc_ml_advisory,3,19-May-2026 11:00:00,19-May-2026 15:15:00,0.0556331597458609,0.0556331597458609
+denver,S7,COC ML compensation advisory,shutis,S17,"Target S17: +3 dB RS, -1 deg eTilt",site_outage_coc_ml_advisory,3,19-May-2026 12:30:00,19-May-2026 14:45:00,0.0556331597458609,0.0556331597458609
+denver,S8,COC ML compensation advisory,rivercastle,S10,"Target S10: +3 dB RS, -1 deg eTilt",site_outage_coc_ml_advisory,3,19-May-2026 11:00:00,19-May-2026 15:15:00,0.0556331597458609,0.0556331597458609
+denver,S9,COC ML compensation advisory,rivercastle,S10,"Target S10: +3 dB RS, -1 deg eTilt",site_outage_coc_ml_advisory,3,19-May-2026 11:00:00,19-May-2026 15:15:00,0.0556631705394153,0.0557231921265241
+gemtel,S1,COC ML compensation advisory,rivercastle,S10,"Target S10: +3 dB RS, -1 deg eTilt",site_outage_coc_ml_advisory,3,19-May-2026 11:00:00,19-May-2026 15:15:00,0.0556331597458609,0.0556331597458609
+gemtel,S1,COC ML compensation advisory,shutis,S17,"Target S17: +3 dB RS, -1 deg eTilt",site_outage_coc_ml_advisory,3,19-May-2026 10:45:00,19-May-2026 14:45:00,0.0556331597458609,0.0556331597458609
+gemtel,S2,COC ML compensation advisory,rivercastle,S10,"Target S10: +3 dB RS, -1 deg eTilt",site_outage_coc_ml_advisory,3,19-May-2026 11:00:00,19-May-2026 15:15:00,0.0556331597458609,0.0556331597458609
+gemtel,S2,COC ML compensation advisory,shutis,S17,"Target S17: +3 dB RS, -1 deg eTilt",site_outage_coc_ml_advisory,3,19-May-2026 10:45:00,19-May-2026 14:45:00,0.0556331597458609,0.0556331597458609
+gemtel,S3,COC ML compensation advisory,rivercastle,S10,"Target S10: +3 dB RS, -1 deg eTilt",site_outage_coc_ml_advisory,3,19-May-2026 11:00:00,19-May-2026 15:15:00,0.0556331597458609,0.0556331597458609
+gemtel,S3,COC ML compensation advisory,shutis,S17,"Target S17: +3 dB RS, -1 deg eTilt",site_outage_coc_ml_advisory,3,19-May-2026 10:45:00,19-May-2026 14:45:00,0.0556331597458609,0.0556331597458609
+mkm,S15,No COC action,none,none,"No RF parameter change",no_op_baseline,2,19-May-2026 03:15:00,23-May-2026 09:15:00,-0.000811673900675492,-0.000787868766470837
+hiid,S20,No COC action,none,none,"No RF parameter change",no_op_baseline,1,19-May-2026 03:15:00,19-May-2026 03:15:00,-0.000787868766470837,-0.000787868766470837
+mkm,S14,No COC action,none,none,"No RF parameter change",no_op_baseline,1,19-May-2026 03:30:00,19-May-2026 03:30:00,-0.0010053583301067,-0.0010053583301067
+shutis,S17,No COC action,none,none,"No RF parameter change",no_op_baseline,1,19-May-2026 03:45:00,19-May-2026 03:45:00,-0.0012252405618744,-0.0012252405618744
+shutis,S18,No COC action,none,none,"No RF parameter change",no_op_baseline,1,23-May-2026 20:00:00,23-May-2026 20:00:00,-0.000787868766470837,-0.000787868766470837

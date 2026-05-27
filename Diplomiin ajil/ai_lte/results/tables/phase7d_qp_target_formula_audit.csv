@@ -1,0 +1,10 @@
+check_name,pass_flag,severity,actual_value,expected_condition,notes
+target_column_exists,1,error,next_qos_satisfaction_ratio,"Phase 7A sector feature table contains QP target.",
+target_copied_from_next_step_sector_qos,1,error,finite_source_matches=1; source_rows_found=49875/49875,"Finite source target values must equal next-step sector qos_satisfaction_ratio.",Missing sector QoS rows are handled by Phase 7 feature imputation: 4565/4565 target rows.
+target_computed_as_ratio_not_all_or_nothing_flag,1,error,unique_target_values=10; intermediate_rows=46,"Sector QoS must be a ratio/mean of UE satisfaction flags, not a single logical condition.",The output is still strongly bimodal because sector groups often have all UEs satisfied or all UEs unsatisfied.
+target_within_0_1,1,error,min=0.000000; max=1.000000,"All QP targets must be finite and within [0, 1].",
+target_not_overwritten_by_logical_condition,1,error,No logical overwrite pattern found in target assignment.,"Target assignment should copy the next-step ratio, not overwrite with a threshold.",
+target_not_rounded_to_binary,1,warning,intermediate_rows=46; unique_target_values=10,"At least some non-0/1 target values should exist if the target is not rounded.",Only a very small fraction is intermediate; this is a target-distribution limitation.
+missing_qos_imputed_to_one_documented,1,warning,missing_source_qos_rows=4565; imputed_to_one=4565; zero_active_next_rows=4565,"Missing/no-active sector QoS imputation must be visible in the audit.",This is a target-definition artifact and should be mentioned as a limitation.
+future_target_not_used_as_input,1,error,none,"No next_* or target_next_* columns may be used as QP inputs.",
+forbidden_labels_not_used_as_inputs,1,error,none,"Scenario labels, outage/degradation flags, and impairment labels must be metadata only.",

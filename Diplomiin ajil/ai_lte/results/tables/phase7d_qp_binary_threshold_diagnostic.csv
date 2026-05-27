@@ -1,0 +1,2 @@
+threshold,row_count,true_bad_pred_bad,true_bad_pred_good,true_good_pred_bad,true_good_pred_good,accuracy,precision,recall,F1
+0.8,7560,1852,222,1018,4468,0.835978835978836,0.952665245202559,0.814436748086037,0.87814465408805

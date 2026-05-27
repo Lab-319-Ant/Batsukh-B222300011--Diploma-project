@@ -1,0 +1,9 @@
+metric_name,actual_value,reference_value,notes
+same_site_target_ratio,0.349986983172792,<= 0.50,Share of non-no-op COC/LB/MRO targets at the same site as the source.
+inter_site_target_ratio,0.650013016827208,> 0,Share of non-no-op COC/LB/MRO targets at another site.
+average_target_distance_m,555.226555403216,diagnostic,Mean source-to-target site distance; same-site distance is zero but no longer dominates ranking.
+average_source_target_azimuth_offset_deg,69.5664213191963,lower is better,Azimuth offset from source sector boresight toward target site or co-site sector azimuth separation.
+average_target_source_azimuth_offset_deg,60.6004307386458,lower is better,Azimuth offset from target sector boresight back toward source site or co-site sector azimuth separation.
+second_best_supported_target_ratio,0.925512192428151,>= 0.20,Share of target pairs observed as second-best RSRP sector for baseline UE locations.
+average_ue_second_best_count,6.8773893766912,higher is better,Mean baseline UE count where target is the second-best RSRP sector for the source best-server region.
+boundary_second_best_supported_target_ratio,0.851545057944604,higher is better,Share of target pairs with near-boundary second-best UE evidence.

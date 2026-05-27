@@ -1,0 +1,5 @@
+"item","status","notes"
+"enableUnsupervisedClustering","false","K-means clustering disabled in config/sim_config.m"
+"phase5_outputs_archived","true","C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\archive\unsupervised_kmeans_disabled_20260521_200521"
+"supervised_models_compared","Linear_Ridge; Random_Forest; LSBoost","Same group-aware split and same reward target"
+"phase13_packaging","false","Disabled until supervised-only package regeneration"

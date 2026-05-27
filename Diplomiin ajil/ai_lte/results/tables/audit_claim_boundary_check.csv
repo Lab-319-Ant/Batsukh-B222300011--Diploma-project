@@ -1,0 +1,7 @@
+﻿"source","claim_check","pass_flag","severity","evidence","notes"
+"README.md","forbidden full closed-loop claim avoided","1","INFO","No direct achieved full-closed-loop/commercial deployment claim found.",""
+"README.md","top-level current phase matches implemented workflow","1","MAJOR","README no longer claims Phase 8C is the current active implementation.","Stale wording must stay removed."
+"README.md","KPI(t+1) boundary matches outputs","1","MAJOR","README documents the limited Phase 12D/12E KPI(t)->KPI(t+1) boundary.","README must state only COC/OH and LB/MLB are physically applied."
+"README.md","next phase statement current","1","MAJOR","README next-step language is aligned with pre-Phase-13 cleanup and opt-in packaging.","Stale Phase9/10 next-step wording must stay removed."
+"config/sim_config.m","Phase 13 not enabled before Phase 13 audit","1","BLOCKER","cfg.enablePhase13_true=False","main should stop before Phase 13 unless packaging is explicitly enabled."
+"results/thesis_package/final_thesis_claims_and_boundaries.md","final generated claims stay thesis-safe","1","INFO","Allowed/forbidden claims are appropriately bounded.",""

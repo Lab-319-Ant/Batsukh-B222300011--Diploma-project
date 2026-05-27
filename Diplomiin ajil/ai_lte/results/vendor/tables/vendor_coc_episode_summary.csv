@@ -1,0 +1,9 @@
+episode_id,first_timestamp,last_timestamp,timestamp_count,duration_minutes,max_affected_sector_count,affected_sites,affected_sectors,affected_sector_cells,selected_compensation_rows,selected_no_op_rows,selected_targets,episode_note
+3,19-May-2026 03:15:00,19-May-2026 03:45:00,3,45,7,Site 1 + Site 3 + Site 5 + Site 6 + Site 7,"S1, S14, S15, S16, S17, S20, S7, S8, S9","S1 | cell 683_1, S14 | cell 515_1, S15 | cell 515_2, S16 | cell 515_4, S17 | cell 515_5, S20 | cell 501_4, S7 | cell 501_3, S8 | cell 501_1, S9 | cell 501_2",0,10,"",COD incident detected but COC selected no-op after ML/safety checks.
+4,19-May-2026 10:30:00,19-May-2026 16:30:00,25,375,6,Site 1 + Site 3,"S1, S2, S3, S7, S8, S9","S1 | cell 683_1, S2 | cell 683_3, S3 | cell 683_2, S7 | cell 501_3, S8 | cell 501_1, S9 | cell 501_2",38,106,"S10, S17",COC compensation selected at some timestamps; no-op where safety gate rejects target load.
+2,19-May-2026 02:45:00,19-May-2026 02:45:00,1,15,3,Site 1,"S1, S2, S3","S1 | cell 683_1, S2 | cell 683_3, S3 | cell 683_2",0,3,"",COD incident detected but COC selected no-op after ML/safety checks.
+1,18-May-2026 00:45:00,18-May-2026 00:45:00,1,15,1,Site 6,"S16","S16 | cell 515_4",0,1,"",COD incident detected but COC selected no-op after ML/safety checks.
+5,23-May-2026 09:15:00,23-May-2026 09:15:00,1,15,1,Site 5,"S15","S15 | cell 515_2",0,1,"",COD incident detected but COC selected no-op after ML/safety checks.
+6,23-May-2026 10:00:00,23-May-2026 10:00:00,1,15,1,Site 1,"S3","S3 | cell 683_2",0,1,"",COD incident detected but COC selected no-op after ML/safety checks.
+7,23-May-2026 20:00:00,23-May-2026 20:00:00,1,15,1,Site 6,"S18","S18 | cell 515_6",0,1,"",COD incident detected but COC selected no-op after ML/safety checks.
+8,24-May-2026 01:00:00,24-May-2026 01:00:00,1,15,1,Site 6,"S16","S16 | cell 515_4",0,1,"",COD incident detected but COC selected no-op after ML/safety checks.

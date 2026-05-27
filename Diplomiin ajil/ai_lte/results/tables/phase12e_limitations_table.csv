@@ -1,0 +1,9 @@
+limitation_id,description
+one_step_only,"Single-shot KPI(t)->KPI(t+1); no temporal evolution."
+cloned_state_only,"Actions never mutate the live simulator state."
+only_coc_lb_applied,"Only COC/OH and LB/MLB actions are applied; 9 + 55 = 64 of 238 executable rows."
+es_sleep_excluded,"ES sleep actions are not applied (state flag exists, RF/KPI hookup pending)."
+homro_excluded,"HO/MRO HOM/TTT actions are not applied (state placeholders, no temporal HO model)."
+attach_rate_drop_observed,"CIO-only association bias can move UEs below the -105 dBm attach threshold."
+oracle_only_comparable_when_implementable,"Oracle KPI(t+1) is computed only for COC/OH or LB/MLB oracle picks; HO/MRO oracle picks are marked not_comparable."
+single_step_only_no_kpi_feedback,"Multi-step iteration, action application to live state, and KPI(t+1) feedback to next decision are not implemented."

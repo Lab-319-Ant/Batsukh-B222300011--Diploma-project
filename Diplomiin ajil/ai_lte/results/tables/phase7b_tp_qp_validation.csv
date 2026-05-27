@@ -1,0 +1,24 @@
+check_name,severity,pass_flag,actual_value,expected_condition,notes
+tp_model_file_exists,error,1,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\models\phase7b_tp_regression_model.mat,"TP model file must exist.",
+qp_model_file_exists,error,1,C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\models\phase7b_qp_regression_model.mat,"QP model file must exist.",
+tp_predictions_table_exists,error,1,phase7b_tp_predictions.csv,"TP predictions table must exist.",
+qp_predictions_table_exists,error,1,phase7b_qp_predictions.csv,"QP predictions table must exist.",
+no_forbidden_columns_used_as_inputs,error,1,,"Forbidden metadata, scenario, sector, status, or target columns must not be inputs.",
+walk_forward_order_valid,error,1,true,"Walk-forward split must train on earlier samples and test on later samples.",
+test_rows_exist_for_every_scenario,error,1,5 scenarios,"Test rows must exist for every configured Phase 7 scenario.",
+tp_test_mae_reported,error,1,0.3826,"TP test MAE must be reported.",
+tp_test_rmse_reported,error,1,0.6168,"TP test RMSE must be reported.",
+tp_test_r2_reported,error,1,0.6445,"TP test R2 must be reported.",
+qp_test_mae_reported,error,1,0.1847,"QP test MAE must be reported.",
+qp_test_rmse_reported,error,1,0.3222,"QP test RMSE must be reported.",
+qp_test_r2_reported,error,1,0.4778,"QP test R2 must be reported.",
+tp_actual_vs_predicted_figure_exists,error,1,phase7b_tp_actual_vs_predicted.png,"TP actual-vs-predicted figure must exist.",
+qp_actual_vs_predicted_figure_exists,error,1,phase7b_qp_actual_vs_predicted.png,"QP actual-vs-predicted figure must exist.",
+next_targets_not_inputs,error,1,,"next_* target columns must not be used as inputs.",
+scenario_name_not_input,error,1,true,"scenario_name must not be used as input.",
+tp_test_r2_threshold,warning,1,0.6445,"Warn if TP test R2 is below 0.50.",
+qp_test_r2_threshold,warning,0,0.4778,"Warn if QP test R2 is below 0.50.",
+tp_overload_test_r2_not_poor,warning,1,0.3729,"Warn if TP test R2 for overload is below 0.30.",Scenario-wise metric is for interpretation only; scenario_name was not an input.
+tp_mixed_conflict_test_r2_not_poor,warning,1,0.3873,"Warn if TP test R2 for mixed_conflict is below 0.30.",Scenario-wise metric is for interpretation only; scenario_name was not an input.
+qp_overload_test_r2_not_poor,warning,0,0.2592,"Warn if QP test R2 for overload is below 0.30.",Scenario-wise metric is for interpretation only; scenario_name was not an input.
+qp_mixed_conflict_test_r2_not_poor,warning,0,0.2400,"Warn if QP test R2 for mixed_conflict is below 0.30.",Scenario-wise metric is for interpretation only; scenario_name was not an input.

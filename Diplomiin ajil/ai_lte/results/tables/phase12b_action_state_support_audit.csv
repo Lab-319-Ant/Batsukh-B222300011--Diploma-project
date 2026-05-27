@@ -1,0 +1,11 @@
+module_name,parameter_or_action,simulator_state_variable,required_simulator_function,implementability_status,implementation_gap_reason
+COC/OH,delta_prs_dB,sectors.referencePowerOffset_dB,apply_scenario_to_network / dry-run helper,implementable_now,"referencePowerOffset_dB is additive to RSRP; Phase 12B verifies +3 dB offset."
+COC/OH,delta_tilt_deg,sectors.electricalTilt_deg,dry-run helper mutates electricalTilt_deg,implementable_now,"electricalTilt_deg is used by calc_antenna_gain; Phase 12B verifies tilt-driven gain change."
+COC/OH,delta_cio_dB,sectors.cio_dB,apply_cio_bias_to_association,implementable_now,"Per-sector CIO column added in Phase 12B; affects biased best-server only, not physical RSRP/SINR."
+LB/MLB,delta_cio_dB,sectors.cio_dB,apply_cio_bias_to_association,implementable_now,"CIO bias applied to target sector affects only the association metric."
+ES,es_action:sleep,sectors.is_sleeping,dry-run helper sets sectors.is_sleeping = true,partially_implementable,"is_sleeping is a state flag only; RF and KPI engines do NOT yet consume it."
+ES,es_action:keep_active,,,no_parameter_change_required,"Functional no-op."
+ES,es_action:wake_up,sectors.is_sleeping,dry-run helper sets sectors.is_sleeping = false,partially_implementable,"Flag can be cleared but the simulator does not yet model sleep history or RF reactivation."
+HO/MRO,delta_hom_dB,sectors.hom_offset_dB,dry-run helper increments placeholder,partially_implementable,"hom_offset_dB is a state placeholder only; handover_risk_score still derives from RSRP gap."
+HO/MRO,delta_ttt_ms,sectors.ttt_offset_ms,dry-run helper increments placeholder,partially_implementable,"ttt_offset_ms is a state placeholder only; no temporal handover model attached."
+HO/MRO,delta_cio_dB,sectors.cio_dB,apply_cio_bias_to_association,implementable_now,"CIO bias applied to target sector affects association only."

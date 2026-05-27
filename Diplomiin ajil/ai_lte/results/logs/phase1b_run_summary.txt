@@ -1,0 +1,12 @@
+Phase 1B LTE RF validation run
+Phase: Phase_1B_7site21sector_RF_validation
+Topology: 7 sites / 21 sectors
+fc_GHz: 2.600
+pathlossModel: 3GPP_UMa_NLOS
+MAPL_dB: 126.000
+plannedRadius_m: 462.120
+ISD_m: 800.415
+numUE: 500
+attachRate: 0.982000
+plannedCoverageRatio: 0.978067
+plannedSINRThresholdRatio: 0.978385

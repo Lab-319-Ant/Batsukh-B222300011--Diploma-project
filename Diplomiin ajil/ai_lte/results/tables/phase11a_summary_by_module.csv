@@ -1,0 +1,5 @@
+module_name,selected_before_coordination,accepted_after_coordination,rejected_after_coordination,rejection_rate,conflict_count,safety_rejection_count,priority_rejection_count,noop_count,fallback_count
+COC/OH,15,15,0,0,2,0,0,6,0
+LB/MLB,189,138,51,0.26984126984127,81,0,51,83,58
+ES,223,222,1,0.00448430493273543,2,1,0,156,0
+HO/MRO,134,112,22,0.164179104477612,37,0,22,4,3

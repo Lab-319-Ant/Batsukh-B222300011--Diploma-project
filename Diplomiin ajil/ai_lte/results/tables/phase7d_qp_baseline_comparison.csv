@@ -1,0 +1,13 @@
+model_name,split,row_count,MAE,RMSE,R2,notes
+QP_bounded_model,validation,7455,0.115486712264435,0.255097518972024,0.5765161355941,"model prediction clipped to [0,1]"
+QP_bounded_model,test,7560,0.162163331731571,0.305403456212682,0.53099619848016,"model prediction clipped to [0,1]"
+QP_bounded_model,ALL_EVAL,15015,0.138988226961175,0.281552121073515,0.555178474491133,"model prediction clipped to [0,1]"
+train_mean_baseline,validation,7455,0.314334928336542,0.392163014787085,-0.000823889023635171,"deployable simple baseline using train target mean"
+train_mean_baseline,test,7560,0.364754116641733,0.451920252116844,-0.0269565654083133,"deployable simple baseline using train target mean"
+train_mean_baseline,ALL_EVAL,15015,0.339720813357334,0.423306314801192,-0.00548983108534884,"deployable simple baseline using train target mean"
+persistence_baseline,validation,7455,0.0962396601833222,0.309688067990995,0.375872464559359,"deployable if previous sector QoS is available"
+persistence_baseline,test,7560,0.136722096245906,0.369197597918965,0.314596684046932,"deployable if previous sector QoS is available"
+persistence_baseline,ALL_EVAL,15015,0.116622425193854,0.340951671365937,0.347690301361467,"deployable if previous sector QoS is available"
+scenario_mean_baseline_diagnostic,validation,7455,0.242430452475071,0.351929822608432,0.193997221099555,"diagnostic only; scenario label is metadata and not a deployable input"
+scenario_mean_baseline_diagnostic,test,7560,0.252147759790435,0.365539523474816,0.328111588805825,"diagnostic only; scenario label is metadata and not a deployable input"
+scenario_mean_baseline_diagnostic,ALL_EVAL,15015,0.247323082731755,0.358846782612131,0.27741939267437,"diagnostic only; scenario label is metadata and not a deployable input"

@@ -1,0 +1,7 @@
+check_name,pass_flag,severity,actual_value,expected_condition,notes
+temporal_split_respected,1,error,scenario_sector_groups_checked=105,Within every scenario-sector group: train time < validation time < test time.,
+target_distribution_comparable_by_split,1,warning,train_endpoint_pct=99.92; test_endpoint_pct=99.87; abs_diff=0.05,Train and test endpoint proportions should be broadly comparable.,Comparable does not mean healthy; all splits are strongly endpoint dominated.
+test_split_endpoint_dominated,0,warning,test_target_at_0_or_1_pct=99.87,Warn if the test split is dominated by 0/1 targets.,This confirms the visible vertical bands are target-distribution driven.
+no_scenario_dominates_test,1,error,max_scenario_share=0.200; scenario_count=5,No single scenario should dominate the test split.,
+future_target_not_used_as_input,1,error,none,No future target columns may appear in input features.,
+forbidden_labels_not_used_as_inputs,1,error,none,No scenario/outage/degradation labels may appear in input features.,

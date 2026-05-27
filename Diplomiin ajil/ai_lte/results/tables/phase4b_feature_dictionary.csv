@@ -1,0 +1,66 @@
+feature_name,table_name,feature_role,intended_module,reason
+realization_id,phase4b_sector_features_clustering,metadata,clustering,Traceability metadata excluded from input matrix.
+scenario_id,phase4b_sector_features_clustering,metadata,clustering,Traceability metadata only; forbidden as ML input.
+scenario_name,phase4b_sector_features_clustering,metadata,clustering,Traceability metadata only; forbidden as ML input.
+site_id,phase4b_sector_features_clustering,metadata,clustering,Traceability metadata excluded from input matrix.
+sector_id,phase4b_sector_features_clustering,metadata,clustering,Traceability metadata excluded from input matrix.
+traffic_mode,phase4b_sector_features_clustering,metadata,clustering,Traceability metadata only; forbidden as ML input.
+attached_ue_count,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+active_ue_count,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+offered_traffic_Mbps,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+served_traffic_Mbps,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+unserved_traffic_Mbps,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+sector_capacity_Mbps,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+sector_load_ratio,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+mean_RSRP_dBm,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+median_RSRP_dBm,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+mean_SINR_dB,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+median_SINR_dB,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+mean_UE_throughput_Mbps,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+median_UE_throughput_Mbps,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+qos_satisfaction_ratio,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+boundary_ue_ratio,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+handover_risk_score,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+attach_rate_sector,phase4b_sector_features_clustering,input_feature,clustering,Allowed KPI-derived input feature for this later module.
+realization_id,phase4b_sector_features_cod,metadata,COD,Traceability metadata excluded from input matrix.
+sector_id,phase4b_sector_features_cod,metadata,COD,Traceability metadata excluded from input matrix.
+site_id,phase4b_sector_features_cod,metadata,COD,Traceability metadata excluded from input matrix.
+scenario_name,phase4b_sector_features_cod,metadata,COD,Traceability metadata only; forbidden as ML input.
+impaired_sector_id,phase4b_sector_features_cod,metadata,COD,Traceability metadata only; forbidden as ML input.
+sector_status,phase4b_sector_features_cod,metadata,COD,Traceability metadata only; forbidden as ML input.
+is_impaired_sector,phase4b_sector_features_cod,metadata,COD,Traceability metadata only; forbidden as ML input.
+attached_ue_count,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+active_ue_count,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+offered_traffic_Mbps,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+served_traffic_Mbps,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+unserved_traffic_Mbps,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+sector_load_ratio,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+mean_RSRP_dBm,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+median_RSRP_dBm,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+mean_SINR_dB,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+median_SINR_dB,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+mean_UE_throughput_Mbps,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+median_UE_throughput_Mbps,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+qos_satisfaction_ratio,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+boundary_ue_ratio,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+handover_risk_score,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+attach_rate_sector,phase4b_sector_features_cod,input_feature,COD,Allowed KPI-derived input feature for this later module.
+cod_label,phase4b_sector_features_cod,target_label,COD,Target or future target column; excluded from input matrix.
+dataset_id,phase4b_network_features_tp_qp,metadata,TP_QP,Traceability metadata excluded from input matrix.
+scenario_id,phase4b_network_features_tp_qp,metadata,TP_QP,Traceability metadata only; forbidden as ML input.
+realization_id,phase4b_network_features_tp_qp,metadata,TP_QP,Traceability metadata excluded from input matrix.
+scenario_name,phase4b_network_features_tp_qp,metadata,TP_QP,Traceability metadata only; forbidden as ML input.
+traffic_mode,phase4b_network_features_tp_qp,metadata,TP_QP,Traceability metadata only; forbidden as ML input.
+active_ues,phase4b_network_features_tp_qp,input_feature,TP_QP,Allowed KPI-derived input feature for this later module.
+total_served_traffic_Mbps,phase4b_network_features_tp_qp,input_feature,TP_QP,Allowed KPI-derived input feature for this later module.
+total_unserved_traffic_Mbps,phase4b_network_features_tp_qp,input_feature,TP_QP,Allowed KPI-derived input feature for this later module.
+overloaded_sector_count,phase4b_network_features_tp_qp,input_feature,TP_QP,Allowed KPI-derived input feature for this later module.
+mean_sector_load,phase4b_network_features_tp_qp,input_feature,TP_QP,Allowed KPI-derived input feature for this later module.
+max_sector_load,phase4b_network_features_tp_qp,input_feature,TP_QP,Allowed KPI-derived input feature for this later module.
+mean_best_RSRP_dBm,phase4b_network_features_tp_qp,input_feature,TP_QP,Allowed KPI-derived input feature for this later module.
+mean_best_SINR_dB,phase4b_network_features_tp_qp,input_feature,TP_QP,Allowed KPI-derived input feature for this later module.
+coverage_ratio,phase4b_network_features_tp_qp,input_feature,TP_QP,Allowed KPI-derived input feature for this later module.
+boundary_ue_ratio,phase4b_network_features_tp_qp,input_feature,TP_QP,Allowed KPI-derived input feature for this later module.
+handover_risk_score,phase4b_network_features_tp_qp,input_feature,TP_QP,Allowed KPI-derived input feature for this later module.
+es_candidate_sector_count,phase4b_network_features_tp_qp,input_feature,TP_QP,Allowed KPI-derived input feature for this later module.
+qos_satisfaction_ratio_active,phase4b_network_features_tp_qp,target_label,TP_QP,Target or future target column; excluded from input matrix.

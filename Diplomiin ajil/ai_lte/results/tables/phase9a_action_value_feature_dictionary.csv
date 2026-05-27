@@ -1,0 +1,42 @@
+column_name,table_name,role,module,reason
+action_id,phase9a_action_value_dataset_all,metadata,all,Traceability metadata; not a model input.
+oracle_group_id,phase9a_action_value_dataset_all,metadata,all,Traceability metadata; not a model input.
+dataset_id,phase9a_action_value_dataset_all,metadata,all,Traceability metadata; not a model input.
+scenario_id,phase9a_action_value_dataset_all,metadata,all,Traceability metadata; not a model input.
+realization_id,phase9a_action_value_dataset_all,metadata,all,Traceability metadata; not a model input.
+scenario_name,phase9a_action_value_dataset_all,metadata,all,Traceability metadata; not a model input.
+source_sector_id,phase9a_action_value_dataset_all,metadata,all,Traceability metadata; not a model input.
+target_sector_id,phase9a_action_value_dataset_all,metadata,all,Traceability metadata; not a model input.
+module_name,phase9a_action_value_dataset_all,metadata,all,Traceability metadata; not a model input.
+action_type,phase9a_action_value_dataset_all,metadata,all,Traceability metadata; not a model input.
+source_sector_load,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+target_sector_load,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+source_mean_RSRP_dBm,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+source_mean_SINR_dB,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+source_qos_satisfaction_ratio,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+source_handover_risk_score,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+source_attach_rate_sector,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+delta_prs_dB,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+delta_tilt_deg,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+delta_cio_dB,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+delta_hom_dB,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+delta_ttt_ms,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+sleep_flag,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+is_no_op,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+es_action_code,phase9a_action_value_dataset_all,input_feature_candidate,all,Pre-action state feature or action parameter.
+reward,phase9a_action_value_dataset_all,target,all,Regression target (counterfactual reward).
+safety_valid,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+oracle_selected,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+oracle_selection_reason,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+unsafe_fallback_group,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+safe_training_candidate,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+invalid_reason,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+safety_attach_loss,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+safety_qos_loss,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+safety_sinr_loss,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+safety_rsrp_loss,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+safety_neighbor_overload,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+safety_handover_risk,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+safety_es_sleep_impaired,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+safety_is_unsafe,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.
+evaluation_note,phase9a_action_value_dataset_all,evaluation_metadata,all,Post-hoc audit / oracle / safety flag; never a model input.

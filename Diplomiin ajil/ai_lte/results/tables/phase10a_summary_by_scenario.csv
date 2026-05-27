@@ -1,0 +1,9 @@
+scenario_name,decision_group_count,safe_unsafe_selected_count,fallback_count,noop_selected_count,safety_enforced_mean_regret,safe_top1_oracle_match_rate
+outage_sector,37,0,0,17,0,0.648648648648649
+degraded_sector,29,0,0,16,0.000272413793103449,0.655172413793103
+mixed_conflict,88,21,21,30,0,0.909090909090909
+overload,93,40,40,46,0.000461382716866362,0.89247311827957
+normal,24,0,0,5,0,0.458333333333333
+handover_stress,91,0,0,10,0,0.164835164835165
+low_load,95,0,0,57,0,0.926315789473684
+low_load_energy_saving_candidate,104,0,0,68,0,0.923076923076923

@@ -1,0 +1,4 @@
+check_name,pass_flag,notes
+tilt_column_present,1,electricalTilt_deg column present in sectors.
+tilt_affects_rsrp,1,max |delta RSRP| for tilt change = 3.2793 dB at test sector.
+tilt_status_honest,1,reported status: implementable_now

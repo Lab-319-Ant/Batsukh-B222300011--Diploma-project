@@ -1,0 +1,13 @@
+check_name,severity,pass_flag,actual_value,expected_condition,notes
+model_file_exists,error,1,"C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\models\phase6b_cod_random_forest_model.mat",COD model MAT file must exist.,
+no_forbidden_leakage_feature_used,error,1,"",Forbidden leakage columns must not be model inputs.,
+test_confusion_contains_all_classes,error,1,"normal, degraded, outage",Balanced test confusion matrix must contain all three classes.,
+outage_recall_reported,error,1,"1.0000",Outage recall must be reported.,
+missed_detection_rate_reported,error,1,"0.0227",Missed detection rate must be reported.,
+false_alarm_rate_reported,error,1,"0.0435",False alarm rate must be reported.,
+external_evaluation_reported,error,1,"external outage recall=1.0000 missed=0.0317",External imbalanced evaluation must be reported.,
+feature_importance_table_exists,error,1,"16 features",Feature importance table must exist.,
+prediction_tables_have_actual_and_predicted,error,1,"true",Prediction tables must include actual_label and predicted_label.,
+test_outage_recall_threshold,warning,1,"1.0000",Warn if balanced-test outage recall is below 0.80.,
+test_missed_detection_threshold,warning,1,"0.0227",Warn if balanced-test missed detection rate is above 0.20.,
+accuracy_not_misleading_for_outage,warning,1,"accuracy=0.9701 outage_recall=1.0000",Warn if high accuracy hides poor outage recall.,

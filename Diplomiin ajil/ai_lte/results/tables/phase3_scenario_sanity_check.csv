@@ -1,0 +1,10 @@
+check_name,expected_condition,actual_value,reference_value,pass_flag,notes
+low_load_mean_load_below_normal,low_load mean load < normal mean load,0.0508894990541751,0.404562989679067,1,
+normal_qos_above_overload,normal QoS > overload QoS,0.96,0.54,1,
+overload_count_above_normal,overload overloaded sectors > normal overloaded sectors,17,0,1,
+no_heavy_collapse_scenario,heavy/full collapse is not part of Phase 3,0,0,1,Phase 3 should not include heavy_overload unless explicitly requested.
+outage_attach_not_above_normal,outage_sector attach rate <= normal attach rate,0.954,0.97,1,
+mixed_overload_close_to_overload,mixed_conflict overloaded sectors >= overload overloaded sectors - 1,18,17,1,Allows one-sector tolerance because impairment may move UEs or traffic.
+handover_risk_above_normal,handover_stress risk score > normal risk score,0.41014799154334,0.175257731958763,1,
+handover_boundary_ratio_above_normal,handover_stress boundary UE ratio > normal boundary UE ratio,0.41014799154334,0.175257731958763,1,
+energy_saving_candidates_exist,low_load_energy_saving_candidate ES candidate sector count > 0,18,0,1,

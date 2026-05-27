@@ -1,0 +1,41 @@
+Phase 2C traffic calibration refinement summary
+
+Mode: low_load
+Active user ratio: 0.050
+Active UEs: 25
+Total offered Mbps: 43.584030
+Total served Mbps: 43.584030
+QoS satisfaction ratio: 1.000000
+Overloaded sectors: 0
+Mean sector load: 0.051049
+Max sector load: 0.146092
+
+Mode: normal
+Active user ratio: 0.150
+Active UEs: 75
+Total offered Mbps: 360.525014
+Total served Mbps: 353.286749
+QoS satisfaction ratio: 0.986667
+Overloaded sectors: 0
+Mean sector load: 0.386865
+Max sector load: 0.753731
+
+Mode: overload
+Active user ratio: 0.300
+Active UEs: 150
+Total offered Mbps: 1050.952162
+Total served Mbps: 781.476572
+QoS satisfaction ratio: 0.393333
+Overloaded sectors: 16
+Mean sector load: 1.157120
+Max sector load: 1.987605
+
+Mode: heavy_overload
+Active user ratio: 1.000
+Active UEs: 500
+Total offered Mbps: 25779.716993
+Total served Mbps: 937.681232
+QoS satisfaction ratio: 0.000000
+Overloaded sectors: 21
+Mean sector load: 28.197378
+Max sector load: 40.969627

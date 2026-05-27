@@ -1,0 +1,11 @@
+module_name,parameter_or_action,simulator_state_variable,required_simulator_function,implementability_status,implementation_gap_reason
+COC/OH,delta_prs_dB,"sectors.referencePowerOffset_dB",apply_scenario_to_network,implementable_now,"Phase 3 already mutates referencePowerOffset_dB; can be applied with the same field."
+COC/OH,delta_tilt_deg,"sectors.electricalTilt_deg",NEW helper required (apply_tilt_offset),partially_implementable,"electricalTilt_deg column exists and feeds calc_antenna_gain, but no current code mutates it after topology build."
+COC/OH,delta_cio_dB,"",,not_implemented_in_simulator,"Simulator has no CIO/bias state. Association in calc_rsrp_sinr is pure max-RSRP; would require new CIO column and biased best-server logic."
+LB/MLB,delta_cio_dB,"",,not_implemented_in_simulator,"Same CIO/bias gap as COC/OH. LB load balancing depends on biased UE-to-sector association, which the simulator does not model."
+ES,es_action:sleep,"sectors.referencePowerOffset_dB, sectors.txPowerOffset_dB, sectors.status",NEW helper required (apply_sector_sleep),partially_implementable,"Sleep can be approximated by setting both power offsets to a large negative value (the Phase 3 outage trick), but the simulator has no native sleep/active state and no wake transition tracking."
+ES,es_action:keep_active,"",,no_parameter_change_required,"Functional no-op; ES keep_active rows are classified as final_noop in Phase 11B and therefore not executable."
+ES,es_action:wake_up,"",,not_implemented_in_simulator,"Wake-up requires a recorded sleep state to reverse. Simulator does not track sleep history; reversing the Phase 3 outage trick alone would not be deterministic without prior offsets."
+HO/MRO,delta_hom_dB,"",,not_implemented_in_simulator,"Simulator has no parametric handover-margin state. handover_risk_score is derived from RSRP best-vs-second gap, not from HOM."
+HO/MRO,delta_ttt_ms,"",,not_implemented_in_simulator,"Simulator has no time-to-trigger state. Mobility is modeled as a static boundary-UE indicator, not a temporal handover trigger."
+HO/MRO,delta_cio_dB,"",,not_implemented_in_simulator,"Same CIO gap as COC/OH and LB/MLB. HO/MRO CIO-based handover bias is not represented."

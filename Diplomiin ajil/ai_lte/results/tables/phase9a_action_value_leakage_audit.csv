@@ -1,0 +1,50 @@
+column_name,role,marked_as_input,leakage_risk,in_forbidden_list,note
+action_id,metadata,0,0,0,ok
+oracle_group_id,metadata,0,0,0,ok
+dataset_id,metadata,0,0,0,ok
+scenario_id,metadata,0,0,0,ok
+realization_id,metadata,0,0,0,ok
+scenario_name,metadata,0,0,0,ok
+source_sector_id,metadata,0,0,0,ok
+target_sector_id,metadata,0,0,0,ok
+module_name,metadata,0,0,0,ok
+action_type,metadata,0,0,0,ok
+source_sector_load,input_feature_candidate,1,0,0,ok
+target_sector_load,input_feature_candidate,1,0,0,ok
+source_mean_RSRP_dBm,input_feature_candidate,1,0,0,ok
+source_mean_SINR_dB,input_feature_candidate,1,0,0,ok
+source_qos_satisfaction_ratio,input_feature_candidate,1,0,0,ok
+source_handover_risk_score,input_feature_candidate,1,0,0,ok
+source_attach_rate_sector,input_feature_candidate,1,0,0,ok
+delta_prs_dB,input_feature_candidate,1,0,0,ok
+delta_tilt_deg,input_feature_candidate,1,0,0,ok
+delta_cio_dB,input_feature_candidate,1,0,0,ok
+delta_hom_dB,input_feature_candidate,1,0,0,ok
+delta_ttt_ms,input_feature_candidate,1,0,0,ok
+sleep_flag,input_feature_candidate,1,0,0,ok
+is_no_op,input_feature_candidate,1,0,0,ok
+es_action_code,input_feature_candidate,1,0,0,ok
+reward,target,0,0,1,ok
+safety_valid,evaluation_metadata,0,0,1,ok
+oracle_selected,evaluation_metadata,0,0,1,ok
+oracle_selection_reason,evaluation_metadata,0,0,1,ok
+unsafe_fallback_group,evaluation_metadata,0,0,1,ok
+safe_training_candidate,evaluation_metadata,0,0,1,ok
+invalid_reason,evaluation_metadata,0,0,0,ok
+safety_attach_loss,evaluation_metadata,0,0,0,ok
+safety_qos_loss,evaluation_metadata,0,0,0,ok
+safety_sinr_loss,evaluation_metadata,0,0,0,ok
+safety_rsrp_loss,evaluation_metadata,0,0,0,ok
+safety_neighbor_overload,evaluation_metadata,0,0,0,ok
+safety_handover_risk,evaluation_metadata,0,0,0,ok
+safety_es_sleep_impaired,evaluation_metadata,0,0,0,ok
+safety_is_unsafe,evaluation_metadata,0,0,0,ok
+evaluation_note,evaluation_metadata,0,0,0,ok
+check:reward_is_not_in_input_lists,audit_check,0,0,0,reward is declared in forbiddenInputs.
+check:oracle_selected_is_not_input,audit_check,0,0,0,oracle_selected is declared in forbiddenInputs.
+check:oracle_selection_reason_is_not_input,audit_check,0,0,0,oracle_selection_reason is declared in forbiddenInputs.
+check:no_post_columns_as_input,audit_check,0,0,0,post_* columns present in dataset: 0
+check:no_scenario_label_input,audit_check,0,0,0,scenario_label column not present.
+check:reward_target_exists,audit_check,0,0,0,reward column exists in dataset.
+check:action_parameters_available,audit_check,0,0,0,missing params: 
+check:no_closed_loop_columns,audit_check,0,0,0,closed-loop columns present: 

@@ -1,0 +1,4 @@
+actual_label,predicted_normal,predicted_degraded,predicted_outage
+normal,17,3,0
+degraded,0,23,0
+outage,0,0,23

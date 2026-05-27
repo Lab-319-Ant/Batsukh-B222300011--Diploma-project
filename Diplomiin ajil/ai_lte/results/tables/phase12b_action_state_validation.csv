@@ -1,0 +1,17 @@
+check_name,severity,pass_flag,actual_value,expected_condition,notes
+support_audit_exists,error,1,"10 rows",> 0,phase12b_action_state_support_audit.csv must be written and non-empty.
+cio_column_exists,error,1,"true",== true,sectors.cio_dB must be present after Phase 12B extension.
+cio_default_zero,error,1,"true",== true,sectors.cio_dB must default to zero for every sector.
+baseline_assoc_unchanged_with_zero_cio,error,1,"true",== true,biased best-server must equal physical best-server when all CIO = 0.
+cio_changes_assoc_only,error,1,"changed_serving=20, physical_unchanged=1",changed_serving>=1 AND physical_unchanged==1,CIO bias must change at least one biased best-server while leaving physical RSRP intact.
+ref_power_offset_changes_rsrp,error,1,"mean_delta=3.0000 dB, expected 3 dB",|delta - 3| < 0.05,reference power offset must shift physical RSRP by the configured delta for affected UEs.
+state_clone_integrity,error,1,"orig_unchanged=1, cloned_has_delta=1",== both true,dry-run apply must mutate the clone but never the original topology.
+original_state_not_mutated,error,1,"true",== true,apply_single_action_to_cloned_state must not modify the input topology.
+tilt_support_status_honest,error,1,"implementable_now",implementable_now or partially_implementable,tilt status must be honestly reported based on whether tilt affects RSRP.
+hom_not_marked_implemented,error,1,"partially_implementable",!= implementable_now,HOM placeholder must not be marked implemented_now.
+ttt_not_marked_implemented,error,1,"partially_implementable",!= implementable_now,TTT placeholder must not be marked implemented_now.
+es_sleep_not_marked_implemented,error,1,"partially_implementable",!= implementable_now,ES sleep state flag exists but RF/KPI engines do not yet consume it.
+no_kpi_t_plus_1_in_sectors,error,1,"",== empty,No KPI(t+1) column may be added to sectors by Phase 12B.
+no_kpi_t_plus_1_in_support,error,1,"",== empty,No KPI(t+1) column may exist in support audit.
+no_closed_loop_columns,error,1,"",== empty,No closed-loop columns may be added.
+phase12a_rerun_shows_improvement,error,1,"implementable_now=64 after extension",> 0,Re-classifying Phase 11B executable rows with the post-extension mapping must produce at least one implementable_now row.

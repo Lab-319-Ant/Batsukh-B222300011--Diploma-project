@@ -1,0 +1,8 @@
+﻿"phase","model_or_dataset","leakage_check","pass_flag","severity","offending_columns","notes"
+"Phase 4B","clustering/COD/TPQP feature tables","forbidden metadata and future/action columns excluded from inputs","1","INFO","","Audit table shows no forbidden allowed inputs."
+"Phase 6B","COD classifier","scenario/outage/degradation flags not used as predictive inputs","1","INFO","","COD validation reports no forbidden leakage features."
+"Phase 7B/7C","TP/QP regressors","no next_* targets used as inputs and temporal split ordered","1","INFO","","Walk-forward split function orders each scenario-sector series by time."
+"Phase 9A","action-value datasets","reward/oracle/safety/post-action columns are not inputs","1","INFO","","Feature dictionary marks reward as target and oracle/safety as evaluation metadata."
+"Phase 9B","action-value regressors","no leakage columns used in training","1","INFO","","Validation passes despite allowed weak-R2 warnings."
+"Phase 10A","safety-enforced selection","selection uses predictions and safety flags after training; no action application inputs","1","INFO","","Safety flags are used for filtering, not model fitting."
+"Phase 9B split","action-value predictions","same module/scenario/realization group not split across train/validation/test","1","INFO","","Manual audit found 0 leaky groups in phase9b_action_value_predictions.csv."

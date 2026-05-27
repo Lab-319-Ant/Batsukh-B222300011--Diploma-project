@@ -1,0 +1,8 @@
+sim_site_id,sim_position,vendor_site_key,train_first_timestamp,train_last_timestamp,test_first_timestamp,test_last_timestamp,train_sample_rows,test_sample_rows,ridge_lambda
+1,CENTER,gemtel,17-May-2026 23:45:00,23-May-2026 02:00:00,23-May-2026 02:15:00,24-May-2026 02:00:00,397,92,5000
+2,NORTH,uulzwar,17-May-2026 23:45:00,23-May-2026 02:15:00,23-May-2026 02:30:00,24-May-2026 02:15:00,398,92,5000
+3,NORTHEAST,denver,17-May-2026 23:45:00,23-May-2026 02:30:00,23-May-2026 02:45:00,24-May-2026 02:30:00,400,92,5000
+4,SOUTHEAST,rivercastle,17-May-2026 23:45:00,23-May-2026 02:15:00,23-May-2026 02:30:00,24-May-2026 02:15:00,399,92,1000
+5,SOUTH,mkm,17-May-2026 23:45:00,23-May-2026 02:15:00,23-May-2026 02:30:00,24-May-2026 02:15:00,399,92,5000
+6,SOUTHWEST,shutis,17-May-2026 23:45:00,23-May-2026 02:15:00,23-May-2026 02:30:00,24-May-2026 02:15:00,399,92,1000
+7,NORTHWEST,hiid,17-May-2026 23:45:00,23-May-2026 02:30:00,23-May-2026 02:45:00,24-May-2026 02:30:00,400,92,5000

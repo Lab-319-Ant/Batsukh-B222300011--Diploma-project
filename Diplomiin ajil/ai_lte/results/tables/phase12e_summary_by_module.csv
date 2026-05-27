@@ -1,0 +1,3 @@
+module_name,total_actions,improved,improved_with_tradeoff,worsened,unchanged,mixed,mean_delta_qos,mean_delta_attach
+COC/OH,9,0,4,0,0,5,0.0103703703703704,-0.008
+LB/MLB,55,0,26,0,2,27,0.0164848484848485,-0.0128

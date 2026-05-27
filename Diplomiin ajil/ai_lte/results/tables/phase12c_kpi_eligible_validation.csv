@@ -1,0 +1,21 @@
+check_name,severity,pass_flag,actual_value,expected_condition,notes
+post_extension_feasibility_exists,error,1,238 rows,> 0,phase12c_post_extension_feasibility.csv must be written and non-empty.
+eligible_table_exists,error,1,64 rows,>= 0,phase12c_kpi_update_eligible_actions.csv must be written.
+excluded_table_exists,error,1,174 rows,>= 0,phase12c_kpi_update_excluded_actions.csv must be written.
+eligible_only_from_final_safe_executable,error,1,0 violations,== 0,Every eligible action_id must come from the Phase 11B final_safe_action executable set.
+eligible_all_implementable_now,error,1,0 non-impl,== 0,Every eligible action must carry implementability_status = implementable_now.
+eligible_modules_are_coc_lb_only,error,1,,== empty,Only COC/OH and LB/MLB modules may appear in the eligible action set.
+no_es_rows_eligible,error,1,0 ES rows,== 0,No ES row may appear in the eligible action set.
+no_homro_rows_eligible,error,1,0 HO/MRO rows,== 0,No HO/MRO row may appear in the eligible action set (HOM/TTT placeholders not connected).
+no_unresolved_fallback_eligible,error,1,0 violations,== 0,Unresolved unsafe fallback rows must never be eligible.
+no_rejected_rows_eligible,error,1,0 violations,== 0,Rejected rows must never be eligible.
+no_noop_rows_eligible,error,1,0 violations,== 0,No-op rows must never be eligible.
+every_excluded_has_reason,error,1,0 empty,== 0,Every excluded row must carry an exclusion_reason string.
+no_simulator_state_mutation,error,1,no simulator-mutation calls found,== false,Phase 12C source must not mutate simulator state.
+no_kpi_t_plus_1_in_eligible,error,1,,== empty,No KPI(t+1) column may exist in the eligible action table.
+no_closed_loop_columns,error,1,,== empty,No closed-loop columns may exist in eligible table.
+no_duplicate_eligible_application_target_parameter,error,1,0 groups with duplicates,== 0,No two eligible actions may write the same application sector/state variable in one coordinator group.
+kpi_t_plus_1_not_generated_flag_set,error,1,64/64 rows flagged,all rows true,Every eligible row must carry kpi_t_plus_1_not_generated_flag = true.
+summary_by_module_exists,error,1,4 rows,> 0,phase12c_eligible_summary_by_module.csv must contain rows.
+summary_by_action_type_exists,error,1,4 rows,> 0,phase12c_eligible_summary_by_action_type.csv must contain rows.
+eligible_plus_excluded_equals_reviewed,error,1,64 eligible + 174 excluded = 238 (executable=238),eligible + excluded == executable,Every executable row must be classified as either eligible or excluded.

@@ -1,0 +1,81 @@
+Phase 3 scenario generation summary
+
+Scenario 1: normal
+Traffic mode: normal
+Impaired sector: 0
+Attach rate: 0.970000
+QoS satisfaction active: 0.960000
+Overloaded sectors: 0
+Mean sector load: 0.404563
+Boundary UE ratio: 0.175258
+ES candidate sector count: 0
+
+Scenario 2: low_load
+Traffic mode: low_load
+Impaired sector: 0
+Attach rate: 0.970000
+QoS satisfaction active: 0.960000
+Overloaded sectors: 0
+Mean sector load: 0.050889
+Boundary UE ratio: 0.175258
+ES candidate sector count: 0
+
+Scenario 3: overload
+Traffic mode: overload
+Impaired sector: 0
+Attach rate: 0.970000
+QoS satisfaction active: 0.540000
+Overloaded sectors: 17
+Mean sector load: 1.134955
+Boundary UE ratio: 0.175258
+ES candidate sector count: 0
+
+Scenario 4: degraded_sector
+Traffic mode: normal
+Impaired sector: 11
+Attach rate: 0.960000
+QoS satisfaction active: 0.973333
+Overloaded sectors: 1
+Mean sector load: 0.413932
+Boundary UE ratio: 0.179167
+ES candidate sector count: 0
+
+Scenario 5: outage_sector
+Traffic mode: normal
+Impaired sector: 11
+Attach rate: 0.954000
+QoS satisfaction active: 0.960000
+Overloaded sectors: 0
+Mean sector load: 0.403433
+Boundary UE ratio: 0.174004
+ES candidate sector count: 0
+
+Scenario 6: low_load_energy_saving_candidate
+Traffic mode: low_load
+Impaired sector: 0
+Attach rate: 0.970000
+QoS satisfaction active: 0.960000
+Overloaded sectors: 0
+Mean sector load: 0.050889
+Boundary UE ratio: 0.175258
+ES candidate sector count: 18
+
+Scenario 7: handover_stress
+Traffic mode: normal
+Impaired sector: 0
+Attach rate: 0.946000
+QoS satisfaction active: 0.946667
+Overloaded sectors: 2
+Mean sector load: 0.402169
+Boundary UE ratio: 0.410148
+ES candidate sector count: 0
+
+Scenario 8: mixed_conflict
+Traffic mode: overload
+Impaired sector: 11
+Attach rate: 0.960000
+QoS satisfaction active: 0.540000
+Overloaded sectors: 18
+Mean sector load: 1.153969
+Boundary UE ratio: 0.179167
+ES candidate sector count: 0

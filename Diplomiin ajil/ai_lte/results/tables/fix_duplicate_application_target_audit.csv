@@ -1,0 +1,6 @@
+"table_name","duplicate_key","duplicate_groups_before","duplicate_rows_before","duplicate_groups_after","duplicate_rows_after","rejected_duplicate_rows","pass_flag","notes"
+"pre_fix_audit_baseline","coordinator_group_id + target_sector_id + CIO","25","69","","","","1","Baseline from pre-Phase-13 audit finding."
+"phase11b_final_executable_actions.csv","coordinator_group_id + application_affected_sector_id + application_state_variable","not_computed","not_computed","0","0","62","1","Final executable table is duplicate-free."
+"phase12c_kpi_update_eligible_actions.csv","coordinator_group_id + application_affected_sector_id + application_state_variable","25","69","0","0","62","1","Eligible set is duplicate-free before KPI application."
+"phase12d_action_application_log.csv","coordinator_group_id + application_affected_sector_id + application_state_variable","25","69","0","0","62","1","Applied set is duplicate-free; no silent CIO stacking."
+"phase12d_action_application_log.csv","coordinator_group_id + application_affected_sector_id + sectors.cio_dB","25","69","0","0","62","1","Specific target-sector CIO duplicate check."
