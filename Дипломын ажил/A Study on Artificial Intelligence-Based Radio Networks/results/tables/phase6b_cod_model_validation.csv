@@ -1,5 +1,5 @@
 check_name,severity,pass_flag,actual_value,expected_condition,notes
-model_file_exists,error,1,"C:\Users\Administrator\Downloads\shinetosol\ai_lte_son_single_site\ai_lte_son_single_site\models\phase6b_cod_random_forest_model.mat",COD model MAT file must exist.,
+model_file_exists,error,1,"C:\Users\Administrator\OneDrive - ONDO\Desktop\Б.Батсүхийн дипломын ажил\Дипломын ажил\A Study on Artificial Intelligence-Based Radio Networks\models\phase6b_cod_random_forest_model.mat",COD model MAT file must exist.,
 no_forbidden_leakage_feature_used,error,1,"",Forbidden leakage columns must not be model inputs.,
 test_confusion_contains_all_classes,error,1,"normal, degraded, outage",Balanced test confusion matrix must contain all three classes.,
 outage_recall_reported,error,1,"1.0000",Outage recall must be reported.,
